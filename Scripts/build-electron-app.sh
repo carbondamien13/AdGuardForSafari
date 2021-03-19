@@ -37,6 +37,11 @@ cd "${SRC}"
 OPT="--asar"
 yarn install --force || exit 1
 
+# Compile electron-remote
+cd "node_modules/electron-remote"
+  yarn install
+cd ../..
+
 # Extract Electron version
 ELECTRON_VERSION=$(jq -r ".devDependencies.electron" ../ElectronMainApp/package.json)
 
