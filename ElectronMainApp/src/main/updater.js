@@ -26,6 +26,11 @@ module.exports = (() => {
             log.info('Checking for updates..');
         });
 
+        updater.on('error', () => {
+            log.error('Checking for updates failed');
+            listeners.notifyListeners(events.APPLICATION_UPDATE_NOT_FOUND);
+        });
+
         updater.on('update-available', (meta) => {
             log.info(`Update found version ${meta.version} at ${meta.update}`);
             listeners.notifyListeners(events.APPLICATION_UPDATE_FOUND, meta);
