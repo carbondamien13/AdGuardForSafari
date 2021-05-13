@@ -348,14 +348,19 @@ PageController.prototype = {
             }));
             ipcRenderer.once('getUserSettingsResponse', (e, response) => {
                 const enabledFiltersIds = response.filters['enabled-filters'];
-                const enabledCustomFiltersIds = response.filters['custom-filters']
+                const enabledCustomFiltersUrls = response.filters['custom-filters']
                     .filter((f) => f.enabled)
-                    .map((f) => f.filterId);
+                    .map((f) => encodeURIComponent(f.customUrl));
 
-                const filtersIds = enabledFiltersIds.concat(enabledCustomFiltersIds);
-                const filtersArg = filtersIds.length ? `&filters=${filtersIds.join('.')}` : '';
+                const filtersArg = enabledFiltersIds.length
+                    ? `&filters=${enabledFiltersIds.join('.')}`
+                    : '';
 
-                const incorrectBlockingLinkUrl = REPORT_URL + versionArg + filtersArg;
+                const customFiltersArg = enabledCustomFiltersUrls.length
+                    ? `&custom_filters=${enabledCustomFiltersUrls.join(',')}`
+                    : '';
+
+                const incorrectBlockingLinkUrl = REPORT_URL + versionArg + filtersArg + customFiltersArg;
                 shell.openExternal(incorrectBlockingLinkUrl);
             });
         });
