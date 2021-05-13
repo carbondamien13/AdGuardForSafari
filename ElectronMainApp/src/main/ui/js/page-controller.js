@@ -295,6 +295,8 @@ PageController.prototype = {
 
         document.querySelector('#about-version-placeholder')
             .textContent = i18n.__('options_about_version.message', this.environmentOptions.appVersion);
+
+        this.resolveIncorrectBlockingLink();
     },
 
     _preventDragAndDrop() {
@@ -325,6 +327,17 @@ PageController.prototype = {
         this.aboutUpdatesBlock.innerText = i18n.__('options_about_update_downloaded.message');
 
         this.aboutUpdatesRelaunch.classList.remove('about-btn--hidden');
+    },
+
+    resolveIncorrectBlockingLink() {
+        const REPORT_URL = 'https://reports.adguard.com/en/new_issue.html?product_type=Saf';
+        const enabledFiltersIds = Object.keys(this.enabledFilters);
+
+        const linkUrl = `${REPORT_URL}&product_version=${this.environmentOptions.appVersion}`
+            + `&filters=${enabledFiltersIds.join('.')}`;
+
+        const incorrectBlockingLink = document.querySelector('#incorrect-blocking-link');
+        incorrectBlockingLink.href = linkUrl;
     },
 };
 
