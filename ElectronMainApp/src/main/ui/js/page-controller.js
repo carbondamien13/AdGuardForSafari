@@ -1,6 +1,6 @@
 /* global i18n */
 
-const { ipcRenderer } = require('electron');
+const { ipcRenderer, shell } = require('electron');
 const AllowlistFilter = require('./filters/allowlist-filter');
 const UserFilter = require('./filters/user-filter');
 const utils = require('./utils/common-utils');
@@ -330,14 +330,29 @@ PageController.prototype = {
     },
 
     resolveIncorrectBlockingLink() {
-        const REPORT_URL = 'https://reports.adguard.com/en/new_issue.html?product_type=Saf';
-        const enabledFiltersIds = Object.keys(this.enabledFilters);
-
-        const linkUrl = `${REPORT_URL}&product_version=${this.environmentOptions.appVersion}`
-            + `&filters=${enabledFiltersIds.join('.')}`;
-
         const incorrectBlockingLink = document.querySelector('#incorrect-blocking-link');
-        incorrectBlockingLink.href = linkUrl;
+        const REPORT_URL = 'https://reports.adguard.com/en/new_issue.html?product_type=Saf';
+        const versionArg = `&product_version=${this.environmentOptions.appVersion}`;
+
+        incorrectBlockingLink.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            ipcRenderer.send('renderer-to-main', JSON.stringify({
+                'type': 'getUserSettings',
+            }));
+            ipcRenderer.once('getUserSettingsResponse', (e, response) => {
+                const enabledFiltersIds = response.filters['enabled-filters'];
+                const enabledCustomFiltersIds = response.filters['custom-filters']
+                    .filter((f) => f.enabled)
+                    .map((f) => f.filterId);
+
+                const filtersIds = enabledFiltersIds.concat(enabledCustomFiltersIds);
+                const filtersArg = filtersIds.length ? `&filters=${filtersIds.join('.')}` : '';
+
+                const incorrectBlockingLinkUrl = REPORT_URL + versionArg + filtersArg;
+                shell.openExternal(incorrectBlockingLinkUrl);
+            });
+        });
     },
 };
 
