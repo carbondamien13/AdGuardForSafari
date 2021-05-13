@@ -26,9 +26,9 @@ module.exports = (() => {
             log.info('Checking for updates..');
         });
 
-        updater.on('error', () => {
-            log.error('Checking for updates failed');
-            listeners.notifyListeners(events.APPLICATION_UPDATE_NOT_FOUND);
+        updater.on('error', (error) => {
+            log.error(`Checking for updates failed: ${error}`);
+            listeners.notifyListeners(events.APPLICATION_UPDATE_ERROR);
         });
 
         updater.on('update-available', (meta) => {
