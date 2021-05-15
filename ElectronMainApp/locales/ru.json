@@ -59,6 +59,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard для Safari обновлен"
     },
+    "options_about_updates_error": {
+        "message": "При обновлении возникла ошибка"
+    },
     "options_about_update_downloaded": {
         "message": "Почти обновлено! Перезапустите расширение AdGuard для Safari, чтобы завершить обновление."
     },
@@ -248,13 +251,13 @@
     "options_whitelist_description": {
         "message": "AdGuard не фильтрует рекламу на сайтах, добавленных в белый список."
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": " (Инвертирован)"
     },
-    "options_whitelist_info_single": {
+    "options_allowlist_info_single": {
         "message": "%s домен"
     },
-    "options_whitelist_info_multi": {
+    "options_allowlist_info_multi": {
         "message": "Доменов в списке: %s"
     },
     "options_whitelist_inverse": {

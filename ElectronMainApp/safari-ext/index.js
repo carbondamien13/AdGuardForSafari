@@ -1,5 +1,4 @@
-/* eslint-disable object-shorthand */
-const addon = require('bindings')('safari_ext_addon');
+const bindings = require('bindings');
 
 /**
  * Addon toolbar api
@@ -9,6 +8,19 @@ const addon = require('bindings')('safari_ext_addon');
  * Like begin/end transaction.
  */
 module.exports = (() => {
+    let moduleRoot = bindings.getRoot(bindings.getFileName());
+    // universal build contains two `safari-ext` modules: for x64 and arm64
+    // fix path according to the current architecture
+    if (process.arch === 'arm64') {
+        moduleRoot = moduleRoot.replace('app.asar', 'app-arm64.asar.unpacked');
+    } else {
+        moduleRoot = moduleRoot.replace('app.asar', 'app-x64.asar.unpacked');
+    }
+    const addon = bindings({
+        bindings: 'safari_ext_addon',
+        module_root: moduleRoot,
+    });
+
     const ADVANCED_BLOCKING_BUNDLE_ID = 'com.adguard.safari.AdGuard.AdvancedBlocking';
     const ICON_EXTENSION_BUNDLE_ID = 'com.adguard.safari.AdGuard.Extension';
 
@@ -19,14 +31,14 @@ module.exports = (() => {
      * Initializes toolbar
      *
      * @param onProtectionChangedCallback  = (bool) => {}
-     * @param onWhitelistChangedCallback = (stringArray) => {}
+     * @param onAllowlistChangedCallback = (stringArray) => {}
      * @param onUserFilterChangedCallback = (stringArray) => {}
      * @param onShowPreferencesCallback = () => ()
      * @param onReportCallback = (string) => ()
      */
     const init = (
         onProtectionChangedCallback,
-        onWhitelistChangedCallback,
+        onAllowlistChangedCallback,
         onUserFilterChangedCallback,
         onShowPreferencesCallback,
         onReportCallback
@@ -37,9 +49,9 @@ module.exports = (() => {
             });
         }
 
-        if (onWhitelistChangedCallback) {
-            addon.setOnWhitelist(() => {
-                addon.whitelistDomains(onWhitelistChangedCallback);
+        if (onAllowlistChangedCallback) {
+            addon.setOnAllowlist(() => {
+                addon.allowlistDomains(onAllowlistChangedCallback);
             });
         }
         if (onUserFilterChangedCallback) {
@@ -172,15 +184,15 @@ module.exports = (() => {
      * @param domains - string array
      * @param callback = () => {}
      */
-    const setWhitelistDomains = (domains, callback) => {
-        addon.setWhitelistDomains(domains, callback);
+    const setAllowlistDomains = (domains, callback) => {
+        addon.setAllowlistDomains(domains, callback);
     };
 
     /**
      * @param callback = (domains as stringArray) => {}
      */
-    const whitelistDomains = (callback) => {
-        addon.whitelistDomains(callback);
+    const allowlistDomains = (callback) => {
+        addon.allowlistDomains(callback);
     };
 
     /**
@@ -286,8 +298,8 @@ module.exports = (() => {
         setContentBlockingJson: setContentBlockingJson,
         setProtectionEnabled: setProtectionEnabled,
         protectionEnabled: protectionEnabled,
-        setWhitelistDomains: setWhitelistDomains,
-        whitelistDomains: whitelistDomains,
+        setAllowlistDomains,
+        allowlistDomains,
         setUserFilter: setUserFilter,
         userFilter: userFilter,
         getExtensionState: getExtensionState,
