@@ -313,7 +313,7 @@ a.settings-actions--update-filters.loading:after {
 }
 .filters-search {
   display: flex;
-  width: 320px;
+  width: 250px;
   height: 40px;
   border-width: 0 0 1px 0;
   padding: 0 0 0 10px;
@@ -1589,8 +1589,8 @@ li.active .toggler:before {
 .about-updates:after {
   content: '';
   position: absolute;
-  margin-left: 2px;
-  top: -1px;
+  margin-left: 5px;
+  top: 1px;
   width: 18px;
   height: 15px;
   background-image: url(../images/reload-ico-green.svg);
