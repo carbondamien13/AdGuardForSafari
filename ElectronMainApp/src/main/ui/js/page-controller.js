@@ -339,6 +339,7 @@ PageController.prototype = {
         const incorrectBlockingLink = document.querySelector('#incorrect-blocking-link');
         const REPORT_URL = 'https://reports.adguard.com/en/new_issue.html?product_type=Saf';
         const versionArg = `&product_version=${this.environmentOptions.appVersion}`;
+        const BROWSER_ARG = '&browser=Safari';
 
         incorrectBlockingLink.addEventListener('click', (event) => {
             event.preventDefault();
@@ -360,7 +361,7 @@ PageController.prototype = {
                     ? `&custom_filters=${enabledCustomFiltersUrls.join(',')}`
                     : '';
 
-                const incorrectBlockingLinkUrl = REPORT_URL + versionArg + filtersArg + customFiltersArg;
+                const incorrectBlockingLinkUrl = REPORT_URL + BROWSER_ARG + versionArg + filtersArg + customFiltersArg;
                 shell.openExternal(incorrectBlockingLinkUrl);
             });
         });
