@@ -103,9 +103,12 @@ body {
 }
 .settings-content__desc {
   margin-bottom: 30px;
-  max-width: 410px;
+  max-width: 450px;
   font-size: 16px;
   line-height: 21px;
+}
+.settings-content__desc .link {
+  white-space: nowrap;
 }
 .antibanner-page-title {
   display: flex;
@@ -310,7 +313,7 @@ a.settings-actions--update-filters.loading:after {
 }
 .filters-search {
   display: flex;
-  width: 320px;
+  width: 250px;
   height: 40px;
   border-width: 0 0 1px 0;
   padding: 0 0 0 10px;
@@ -390,6 +393,10 @@ a.settings-actions--update-filters.loading:after {
 #allowlist .opts-list li:hover:after,
 #userfilter .opts-list li:hover:after{
   display: none;
+}
+#allowlist .back-btn,
+#userfilter .back-btn {
+  margin-top: -2px;
 }
 #allowlist .opts-list .opt-state {
   height: 20px;
@@ -1577,6 +1584,8 @@ li.active .toggler:before {
 }
 
 .about-updates {
+  width: 420px;
+  line-height: 19px;
   margin: 9px 0;
   font-size: 16px;
   position: relative;
@@ -1586,8 +1595,8 @@ li.active .toggler:before {
 .about-updates:after {
   content: '';
   position: absolute;
-  margin-left: 2px;
-  top: -1px;
+  margin-left: 5px;
+  top: 1px;
   width: 18px;
   height: 15px;
   background-image: url(../images/reload-ico-green.svg);
@@ -1661,7 +1670,7 @@ li.active .toggler:before {
   font-size: 36px;
   line-height: 33px;
   max-width: 540px;
-  margin-bottom: 35px;
+  margin: 0 auto 35px;
 }
 
 .onboarding__desc {
