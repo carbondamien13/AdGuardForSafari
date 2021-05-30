@@ -77,15 +77,20 @@ const UserFilter = function () {
                 })
                 .flat();
 
+            // check if all selected lines are commented
+            const isAllLinesCommented = rowsToToggle.some((row) => !editor.session
+                .getLine(row)
+                .trim()
+                .startsWith(COMMENT_MASK));
+
             rowsToToggle.forEach((row) => {
-                const rawLine = editor.session.getLine(row);
-                // if line starts with comment mark we remove it
-                if (rawLine.trim().startsWith(COMMENT_MASK)) {
-                    const lineWithRemovedComment = rawLine.replace(COMMENT_MASK, '');
-                    editor.session.replace(new Range(row, 0, row), lineWithRemovedComment);
-                    // otherwise we add it
+                if (isAllLinesCommented) {
+                    // add comment mark
+                    editor.session.insert({ row, column: 0 }, `${COMMENT_MASK} `);
                 } else {
-                    editor.session.insert({ row, column: 0 }, COMMENT_MASK);
+                    // remove comment mark
+                    const rawLine = editor.session.getLine(row);
+                    editor.session.replace(new Range(row, 0, row), rawLine.replace(`${COMMENT_MASK} `, ''));
                 }
             });
         },
