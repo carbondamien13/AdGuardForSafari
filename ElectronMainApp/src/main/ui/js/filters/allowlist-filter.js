@@ -90,7 +90,8 @@ const AllowlistFilter = function (userSettings, contentBlockerInfo) {
                 } else {
                     // remove comment mark
                     const rawLine = editor.session.getLine(row);
-                    editor.session.replace(new Range(row, 0, row), rawLine.replace(`${COMMENT_MASK} `, ''));
+                    const newLine = rawLine.replace(`${COMMENT_MASK} `, '').trim();
+                    editor.session.replace(new Range(row, 0, row), newLine);
                 }
             });
         },
