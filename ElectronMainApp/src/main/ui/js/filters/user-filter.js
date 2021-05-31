@@ -70,7 +70,7 @@ const UserFilter = function () {
             const selection = editor.getSelection();
             const ranges = selection.getAllRanges();
 
-            const rowsToToggle = ranges
+            const selectedRows = ranges
                 .map((range) => {
                     const [start, end] = [range.start.row, range.end.row];
                     return Array.from({ length: end - start + 1 }, (_, idx) => idx + start);
@@ -78,13 +78,13 @@ const UserFilter = function () {
                 .flat();
 
             // check if all selected lines are commented
-            const isAllLinesCommented = rowsToToggle.some((row) => !editor.session
+            const hasUncommentedRows = selectedRows.some((row) => !editor.session
                 .getLine(row)
                 .trim()
                 .startsWith(COMMENT_MASK));
 
-            rowsToToggle.forEach((row) => {
-                if (isAllLinesCommented) {
+            selectedRows.forEach((row) => {
+                if (hasUncommentedRows) {
                     // add comment mark
                     editor.session.insert({ row, column: 0 }, `${COMMENT_MASK} `);
                 } else {
