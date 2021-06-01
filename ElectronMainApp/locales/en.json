@@ -497,6 +497,9 @@
     "options_launch_at_login": {
         "message": "Launch AdGuard for Safari at Login"
     },
+    "options_show_dock_icon": {
+        "message": "Show AdGuard for Safari Dock icon"
+    },
     "options_verbose_logging": {
         "message": "Verbose logging"
     },

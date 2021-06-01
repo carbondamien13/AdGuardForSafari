@@ -26,6 +26,7 @@ module.exports = (function () {
         DISABLE_HARDWARE_ACCELERATION: 'hardware-acceleration-disabled',
         UPDATE_FILTERS_PERIOD: 'update-filters-period',
         SHOW_TRAY_ICON: 'show-tray-icon',
+        SHOW_DOCK_ICON: 'show-dock-icon',
         LAUNCH_AT_LOGIN: 'launch-at-login',
         VERBOSE_LOGGING: 'verbose-logging',
         QUIT_ON_CLOSE_WINDOW: 'quit-on-close-main-window',
@@ -57,6 +58,7 @@ module.exports = (function () {
                 defaults[settings.DISABLE_HARDWARE_ACCELERATION] = false;
                 defaults[settings.UPDATE_FILTERS_PERIOD] = 48;
                 defaults[settings.SHOW_TRAY_ICON] = true;
+                defaults[settings.SHOW_DOCK_ICON] = true;
                 defaults[settings.LAUNCH_AT_LOGIN] = false;
                 defaults[settings.VERBOSE_LOGGING] = false;
                 defaults[settings.QUIT_ON_CLOSE_WINDOW] = -1;
@@ -211,6 +213,20 @@ module.exports = (function () {
         });
     };
 
+    const isShowDockIconEnabled = () => {
+        return getProperty(settings.SHOW_DOCK_ICON);
+    };
+
+    const changeShowDockIcon = (value) => {
+        setProperty(settings.SHOW_DOCK_ICON, value);
+
+        listeners.notifyListeners(events.SETTING_UPDATED, {
+            propertyName: settings.SHOW_DOCK_ICON,
+            propertyValue: value,
+            inverted: false,
+        });
+    };
+
     const isVerboseLoggingEnabled = function () {
         return getProperty(settings.VERBOSE_LOGGING);
     };
@@ -299,6 +315,8 @@ module.exports = (function () {
     api.isLaunchAtLoginEnabled = isLaunchAtLoginEnabled;
     api.isShowTrayIconEnabled = isShowTrayIconEnabled;
     api.changeShowTrayIcon = changeShowTrayIcon;
+    api.isShowDockIconEnabled = isShowDockIconEnabled;
+    api.changeShowDockIcon = changeShowDockIcon;
     api.isVerboseLoggingEnabled = isVerboseLoggingEnabled;
     api.changeVerboseLogging = changeVerboseLogging;
     api.isHardwareAccelerationDisabled = isHardwareAccelerationDisabled;

@@ -39,6 +39,10 @@ module.exports.init = function () {
             case 'changeLaunchAtLogin':
                 settings.changeLaunchAtLogin(message.value);
                 break;
+            case 'changeShowDockIcon':
+                app.showDockIcon(message.value);
+                settings.changeShowDockIcon(message.value);
+                break;
             case 'addAndEnableFilter':
                 filters.enableAndUpdateFilter(message.filterId);
                 break;

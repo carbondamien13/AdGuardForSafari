@@ -73,6 +73,18 @@ module.exports = (() => {
         return packageJson['build-configuration'];
     };
 
+    /**
+     *
+     * @param {Boolean} value
+     */
+    const showDockIcon = (value) => {
+        if (value) {
+            app.dock.show();
+        } else {
+            app.dock.hide();
+        }
+    };
+
     return {
         getVersion,
         getLocale,
@@ -80,5 +92,6 @@ module.exports = (() => {
         getClientId,
         getChannel,
         getConfiguration,
+        showDockIcon,
     };
 })();

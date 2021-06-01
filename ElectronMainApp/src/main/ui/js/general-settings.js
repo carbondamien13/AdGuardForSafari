@@ -77,6 +77,14 @@ const Settings = function (
     });
 
     checkboxes.push(new Checkbox('#showTrayIcon', userSettings.names.SHOW_TRAY_ICON));
+    checkboxes.push(new Checkbox('#showDockIcon', userSettings.names.SHOW_DOCK_ICON, {
+        eventListener() {
+            ipcRenderer.send('renderer-to-main', JSON.stringify({
+                'type': 'changeShowDockIcon',
+                'value': this.checked,
+            }));
+        },
+    }));
     checkboxes.push(new Checkbox('#launchAtLogin', userSettings.names.LAUNCH_AT_LOGIN, {
         eventListener() {
             ipcRenderer.send('renderer-to-main', JSON.stringify({

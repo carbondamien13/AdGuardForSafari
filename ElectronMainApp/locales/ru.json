@@ -530,6 +530,9 @@
     "options_show_tray_icon": {
         "message": "Показывать AdGuard для Safari в строке меню"
     },
+    "options_show_dock_icon": {
+        "message": "Показывать иконку AdGuard для Safari в Доке"
+    },
     "options_launch_at_login": {
         "message": "Запускать AdGuard для Safari при входе в систему"
     },

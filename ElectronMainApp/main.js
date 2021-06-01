@@ -47,6 +47,12 @@ if (settings.isHardwareAccelerationDisabled()) {
     app.disableHardwareAcceleration();
 }
 
+if (settings.isShowDockIconEnabled()) {
+    app.dock.show();
+} else {
+    app.dock.hide();
+}
+
 const cssMode = nativeTheme.shouldUseDarkColors ? '#323232' : '#ffffff';
 
 /**
@@ -303,7 +309,6 @@ let tray;
  * Some APIs can only be used after this event occurs.
  */
 app.on('ready', (() => {
-    app.dock.hide();
     i18n.setAppLocale(app.getLocale());
     if (getChannel() !== 'MAS') {
         checkIsInApplicationsFolder();
