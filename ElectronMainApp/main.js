@@ -171,8 +171,6 @@ function loadMainWindow(onWindowLoaded) {
     mainWindow.on('closed', () => {
         log.info('On main window closed..');
 
-        app.dock.hide();
-
         // Dereference the window object, usually you would store windows
         // in an array if your app supports multi windows, this is the time
         // when you should delete the corresponding element.
@@ -233,8 +231,6 @@ function showWindow(onWindowLoaded) {
             onWindowLoaded();
         }
     } else {
-        app.dock.show();
-
         loadMainWindow(onWindowLoaded);
         uiEventListener.register(mainWindow);
     }
@@ -307,6 +303,7 @@ let tray;
  * Some APIs can only be used after this event occurs.
  */
 app.on('ready', (() => {
+    app.dock.hide();
     i18n.setAppLocale(app.getLocale());
     if (getChannel() !== 'MAS') {
         checkIsInApplicationsFolder();
@@ -319,7 +316,6 @@ app.on('ready', (() => {
         log.info('App is launching in background');
 
         // Open in background
-        app.dock.hide();
 
         startup.init(showWindow, (shouldShowMainWindow) => {
             log.info('Startup finished.');
@@ -329,15 +325,11 @@ app.on('ready', (() => {
             if (shouldShowMainWindow) {
                 log.info('Loading main window..');
 
-                app.dock.show();
-
                 loadMainWindow();
             }
         });
     } else {
         log.info('App is launching in foreground');
-
-        app.dock.show();
 
         loadSplashScreenWindow(() => {
             log.debug('Splash screen loaded');
