@@ -205,7 +205,10 @@
             try {
                 const data = JSON.parse(event.message['data']);
                 const verbose = JSON.parse(event.message['verbose']);
-                applyAdvancedBlockingData(data, verbose);
+                
+                if (window.location.href === event.message['url']) {
+                    applyAdvancedBlockingData(data, verbose);
+                }
             } catch (e) {
                 console.error(e);
             }
