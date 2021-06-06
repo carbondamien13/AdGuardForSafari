@@ -205,7 +205,9 @@
             try {
                 const data = JSON.parse(event.message['data']);
                 const verbose = JSON.parse(event.message['verbose']);
-                
+
+                // check if current location is similar to advancedBlockingData target url
+                // to avoid applying rules from iframe for main DOM
                 if (window.location.href === event.message['url']) {
                     applyAdvancedBlockingData(data, verbose);
                 }
