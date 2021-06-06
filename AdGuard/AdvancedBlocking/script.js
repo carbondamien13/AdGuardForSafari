@@ -214,6 +214,8 @@
             } catch (e) {
                 console.error(e);
             }
+
+            safari.self.removeEventListener('message', handleMessage);
         }
     };
 
