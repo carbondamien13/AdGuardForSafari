@@ -181,6 +181,7 @@
         applyScriptlets(data.scriptlets, verbose);
 
         logMessage(verbose, 'Applying scripts and css - done');
+        safari.self.removeEventListener('message', handleMessage);
     };
 
     /**
@@ -206,16 +207,14 @@
                 const data = JSON.parse(event.message['data']);
                 const verbose = JSON.parse(event.message['verbose']);
 
-                // check if current location is similar to advancedBlockingData target url
-                // to avoid applying rules from iframe for main DOM
+                // As each frame listens to these events, we need to match frames and received events
+                // so here we check if url in event payload matches current location url.
                 if (window.location.href === event.message['url']) {
                     applyAdvancedBlockingData(data, verbose);
                 }
             } catch (e) {
                 console.error(e);
             }
-
-            safari.self.removeEventListener('message', handleMessage);
         }
     };
 
