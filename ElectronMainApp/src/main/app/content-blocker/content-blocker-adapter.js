@@ -88,7 +88,7 @@ module.exports = (function () {
                                 overlimit = true;
                             }
 
-                            info.rulesCount = result.totalConvertedCount;
+                            info.rulesCount = result.convertedCount + result.advancedBlockingConvertedCount;
                             info.overlimit = result.overLimit;
                         } else {
                             info.hasError = true;
@@ -131,7 +131,7 @@ module.exports = (function () {
         setSafariContentBlocker(
             rulesGroupsBundles['advancedBlocking'],
             advancedBlocking,
-            { rulesCount: result ? result.totalConvertedCount : 0 }
+            { rulesCount: result ? result.convertedCount + result.advancedBlockingConvertedCount : 0 }
         );
 
         return result ? result.advancedBlockingConvertedCount : 0;
