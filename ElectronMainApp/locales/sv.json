@@ -47,6 +47,12 @@
     "options_support_rate_description": {
         "message": ""
     },
+    "options_support_discuss_title": {
+        "message": ""
+    },
+    "options_support_discuss_description": {
+        "message": ""
+    },
     "options_about_update_check": {
         "message": "Kontrollerar uppdateringar"
     },
@@ -64,6 +70,9 @@
     },
     "options_about_update_relaunch": {
         "message": "Starta om"
+    },
+    "options_about_read_more": {
+        "message": ""
     },
     "options_popup_title_placeholder": {
         "message": "Skriv in filternamn"
@@ -131,8 +140,14 @@
             "other": "%s avancerade regler"
         }
     },
+    "options_filters_check_for_updates": {
+        "message": ""
+    },
     "options_filters_enabled": {
         "message": "Inkopplade:"
+    },
+    "options_filters_homepage": {
+        "message": ""
     },
     "options_filters_enabled_and_more_divider": {
         "message": "%s och ytterligare %s"
@@ -150,7 +165,7 @@
         "message": "uppdaterade: %s"
     },
     "options_filters_empty_custom_filters": {
-        "message": "Beklagar men du har ännu inga egna filter"
+        "message": ""
     },
     "options_filters_empty_custom_add_button": {
         "message": "Lägg till ett eget filter"
@@ -233,11 +248,26 @@
     "options_whitelist_description": {
         "message": ""
     },
+    "options_whitelist_inverted": {
+        "message": ""
+    },
+    "options_whitelist_info_single": {
+        "message": ""
+    },
+    "options_whitelist_info_multi": {
+        "message": ""
+    },
     "options_whitelist_inverse": {
         "message": ""
     },
     "options_userfilter": {
         "message": "Användarregler"
+    },
+    "options_userfilter_info_single": {
+        "message": ""
+    },
+    "options_userfilter_info_multi": {
+        "message": ""
     },
     "options_userfilter_description": {
         "message": "Du kan lägga till egna filterregler till&nbsp;det här filtret. Alternativet &nbsp;rekommenderas för användare som är bekanta med HTML/CSS. Läs <a class='spl-user-descr-link' href='https://adguard.com/forward.html?action=filterrules&from=options_screen&app=safari_extension' target='_blank'>filterregelsgudien</a> för att &nbsp;lära dig hur du&nbsp;skapar egna filterregler."
@@ -386,8 +416,44 @@
     "options_github": {
         "message": "Github"
     },
+    "onboarding_safari_title": {
+        "message": ""
+    },
     "onboarding_safari_desc": {
-        "message": "Sätt bock i rutan intill \"AdGuard Safariikon\" och i \"AdGuard\" i Safaris Inställningar"
+        "message": ""
+    },
+    "onboarding_safari_link": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon_info": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon_web_page_content": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon_browsing_history": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking_info": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking_web_page_content": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking_browsing_history": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_content_blockers": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_content_blockers_info": {
+        "message": ""
     },
     "onboarding_safari_btn": {
         "message": "Öppna Inställningar"
@@ -470,6 +536,9 @@
     "settings_notification_cb_extensions_text": {
         "message": ""
     },
+    "settings_notification_update_interval": {
+        "message": ""
+    },
     "options_cb_general_title": {
         "message": ""
     },
@@ -507,6 +576,9 @@
         "message": ""
     },
     "userfilter_name": {
+        "message": ""
+    },
+    "allowlist_name": {
         "message": ""
     },
     "window_close_dialog_message": {

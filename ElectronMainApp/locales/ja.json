@@ -47,6 +47,12 @@
     "options_support_rate_description": {
         "message": ""
     },
+    "options_support_discuss_title": {
+        "message": ""
+    },
+    "options_support_discuss_description": {
+        "message": ""
+    },
     "options_about_update_check": {
         "message": "アップデートを確認中"
     },
@@ -64,6 +70,9 @@
     },
     "options_about_update_relaunch": {
         "message": "再起動"
+    },
+    "options_about_read_more": {
+        "message": ""
     },
     "options_popup_title_placeholder": {
         "message": "フィルタ名を入力してください"
@@ -102,10 +111,10 @@
         "message": "有用な広告を表示する"
     },
     "options_export_settings": {
-        "message": "Export settings"
+        "message": "設定をエクスポートする"
     },
     "options_import_settings": {
-        "message": "Import settings"
+        "message": "設定をインポートする"
     },
     "options_export_logs": {
         "message": ""
@@ -131,8 +140,14 @@
             "other": "高度ルール %s件"
         }
     },
+    "options_filters_check_for_updates": {
+        "message": ""
+    },
     "options_filters_enabled": {
         "message": "有効："
+    },
+    "options_filters_homepage": {
+        "message": ""
     },
     "options_filters_enabled_and_more_divider": {
         "message": "%s とその他 %s 個"
@@ -150,7 +165,7 @@
         "message": "最終更新日時: %s"
     },
     "options_filters_empty_custom_filters": {
-        "message": "カスタムフィルタはまだ登録されていません"
+        "message": ""
     },
     "options_filters_empty_custom_add_button": {
         "message": "カスタムフィルタを追加"
@@ -233,11 +248,26 @@
     "options_whitelist_description": {
         "message": ""
     },
+    "options_whitelist_inverted": {
+        "message": ""
+    },
+    "options_whitelist_info_single": {
+        "message": ""
+    },
+    "options_whitelist_info_multi": {
+        "message": ""
+    },
     "options_whitelist_inverse": {
         "message": ""
     },
     "options_userfilter": {
         "message": "ユーザールール"
+    },
+    "options_userfilter_info_single": {
+        "message": ""
+    },
+    "options_userfilter_info_multi": {
+        "message": ""
     },
     "options_userfilter_description": {
         "message": "このフィルタに独自のルールを追加できます。このオプションはHTML/CSSに精通した上級者ユーザーにおすすめです。 <a class='spl-user-descr-link'href='https://adguard.com/filterrules.html?utm_source=extension&aid=16593' target='_blank'>フィルタ・ルールのチュートリアル</a>を読むことで独自のフィルタ・ルールを作成する方法を学べます。"
@@ -386,8 +416,44 @@
     "options_github": {
         "message": "Github"
     },
+    "onboarding_safari_title": {
+        "message": ""
+    },
     "onboarding_safari_desc": {
-        "message": "Safari環境設定でAdGuard拡張機能の横にあるチェックボックスにチェックを入れてください。"
+        "message": ""
+    },
+    "onboarding_safari_link": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon_info": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon_web_page_content": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_icon_browsing_history": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking_info": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking_web_page_content": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_advanced_blocking_browsing_history": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_content_blockers": {
+        "message": ""
+    },
+    "onboarding_tooltip_adguard_safari_content_blockers_info": {
+        "message": ""
     },
     "onboarding_safari_btn": {
         "message": "環境設定を開く"
@@ -429,10 +495,10 @@
         "message": "ログイン時にAdGuard for Safariを起動する"
     },
     "options_verbose_logging": {
-        "message": "Verbose logging"
+        "message": "詳細なログ記録"
     },
     "options_verbose_logging_desc": {
-        "message": "If Verbose logging is enabled, AdGuard Safari extensions will print additional information to the browser console"
+        "message": "詳細なログ記録を有効にすると、AdGuard Safariの拡張機能はブラウザコンソールに追加情報を表示します。"
     },
     "options_enable_hardware_acceleration": {
         "message": "ハードウェアアクセラレーションを有効にする"
@@ -469,6 +535,9 @@
     },
     "settings_notification_cb_extensions_text": {
         "message": "Safari広告ブロックが正しく動作するには、AdGuardコンテンツブロッカー拡張機能をすべて有効にする必要があります。"
+    },
+    "settings_notification_update_interval": {
+        "message": ""
     },
     "options_cb_general_title": {
         "message": "AdGuard一般"
@@ -508,6 +577,9 @@
     },
     "userfilter_name": {
         "message": "ユーザールール"
+    },
+    "allowlist_name": {
+        "message": ""
     },
     "window_close_dialog_message": {
         "message": "AdGuardをバックグラウンドで起動し続けますか？"
