@@ -18,7 +18,6 @@ const CONVERTER_TOOL_PATH = '../libs/ConverterTool';
  * @type {{updateContentBlocker}}
  */
 module.exports = (function () {
-    const RULES_LIMIT = 50000;
     const DEBOUNCE_PERIOD = 500;
 
     const emptyBlockerJSON = [
@@ -44,7 +43,7 @@ module.exports = (function () {
             const converterPath = resourcePath(CONVERTER_TOOL_PATH);
             log.info(`CONVERTER PATH: ${converterPath}`);
 
-            const result = await jsonFromRules(rules, advancedBlocking, RULES_LIMIT, converterPath);
+            const result = await jsonFromRules(rules, advancedBlocking, null, converterPath);
             return result;
         } catch (e) {
             log.error(`Unexpected error converting rules: ${e}`);

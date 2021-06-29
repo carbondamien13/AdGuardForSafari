@@ -66,6 +66,20 @@ if (window.top === window) {
         document.addEventListener("DOMContentLoaded", function () {
             safari.self.addEventListener("message", handleMessage);
         });
+
+        const getSafariVersion = () => {
+            let versions = navigator.userAgent.match(/version\/(\d+)/i);
+            if (versions && versions[1]) {
+                return versions[1];
+            }
+            return null;
+        }
+
+        if (document instanceof HTMLDocument) {
+            const safariVersion = getSafariVersion();
+            // Send current Safari browser version
+            safari.extension.dispatchMessage('safariVersion', { 'safariVersion': safariVersion });
+        }
     })();
 }
 
