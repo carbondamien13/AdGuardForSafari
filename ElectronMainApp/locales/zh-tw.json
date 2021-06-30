@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard for Safari 為最新的"
     },
+    "options_about_updates_error": {
+        "message": "更新出錯"
+    },
     "options_about_update_downloaded": {
         "message": "幾乎為最新的！重新啟動 AdGuard for Safari 以完成更新。"
     },
@@ -252,10 +255,10 @@
         "message": "（反向的）"
     },
     "options_allowlist_info_multi": {
-        "message": "%s 網域"
+        "message": "網域：%s"
     },
     "options_allowlist_no_domains": {
-        "message": "%s 網域"
+        "message": "允許清單為空"
     },
     "options_allowlist_inverse": {
         "message": "反向允許清單<span class='sp-table-row-info'><i>除</i>來自允許清單中的網站之外，解除封鎖各處廣告</span>"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "您正在試圖更新的過濾器之版本為相同的或較舊的"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "所有的過濾器是最新的"
     },
     "options_popup_update_not_found": {
         "message": "無已發現的更新"

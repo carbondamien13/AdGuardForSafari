@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard pro Safari je aktuální"
     },
+    "options_about_updates_error": {
+        "message": "Chyba aktualizace"
+    },
     "options_about_update_downloaded": {
         "message": "Téměř aktuální! Spusťte znovu AdGuard pro Safari a dokončete aktualizaci."
     },
@@ -252,13 +255,13 @@
         "message": " (Obrácený)"
     },
     "options_allowlist_info_multi": {
-        "message": "Doména: %s"
-    },
-    "options_allowlist_no_domains": {
         "message": "Domény: %s"
     },
+    "options_allowlist_no_domains": {
+        "message": "Seznam povolených webů je prázdný"
+    },
     "options_allowlist_inverse": {
-        "message": "Invertovat seznam povolených<span class='sp-table-row-info'>. Odblokuje reklamy všude <i>, kromě</i> stránek uvedených v seznamu povolených</span>"
+        "message": "Invertovat seznam povolených<span class='sp-table-row-info'>. Odblokuje reklamy všude, <i>kromě</i> stránek uvedených v seznamu povolených</span>"
     },
     "options_userfilter": {
         "message": "Uživatelská pravidla"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Verze filtru, který se pokoušíte aktualizovat, je stejná nebo starší"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Všechny filtry jsou aktuální"
     },
     "options_popup_update_not_found": {
         "message": "Nenalezeny žádné aktualizace"
