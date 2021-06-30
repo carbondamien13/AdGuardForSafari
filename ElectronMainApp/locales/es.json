@@ -65,9 +65,6 @@
     "options_about_updates_not_found": {
         "message": "AdGuard para Safari está actualizado"
     },
-    "options_about_updates_error": {
-        "message": ""
-    },
     "options_about_update_downloaded": {
         "message": "¡Casi actualizado! Reinicia AdGuard para Safari y así finalizar la actualización."
     },
@@ -298,9 +295,6 @@
     },
     "options_popup_update_version_error": {
         "message": "La versión del filtro que estás intentando actualizar es la misma o anterior"
-    },
-    "options_popup_update_not_found_title": {
-        "message": ""
     },
     "options_popup_update_not_found": {
         "message": "No se han encontrado actualizaciones"

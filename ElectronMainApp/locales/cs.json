@@ -65,9 +65,6 @@
     "options_about_updates_not_found": {
         "message": "AdGuard pro Safari je aktuální"
     },
-    "options_about_updates_error": {
-        "message": ""
-    },
     "options_about_update_downloaded": {
         "message": "Téměř aktuální! Spusťte znovu AdGuard pro Safari a dokončete aktualizaci."
     },
@@ -298,9 +295,6 @@
     },
     "options_popup_update_version_error": {
         "message": "Verze filtru, který se pokoušíte aktualizovat, je stejná nebo starší"
-    },
-    "options_popup_update_not_found_title": {
-        "message": ""
     },
     "options_popup_update_not_found": {
         "message": "Nenalezeny žádné aktualizace"

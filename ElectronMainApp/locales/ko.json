@@ -65,9 +65,6 @@
     "options_about_updates_not_found": {
         "message": "Safari용 AdGuard는 최신 버전입니다"
     },
-    "options_about_updates_error": {
-        "message": ""
-    },
     "options_about_update_downloaded": {
         "message": "곧 업데이트가 완료됩니다! Safari용 AdGuard를 재시작하여 업데이트를 완료하세요."
     },
@@ -298,9 +295,6 @@
     },
     "options_popup_update_version_error": {
         "message": "업데이트하려는 필터의 버전이 같거나 더 오래되었습니다"
-    },
-    "options_popup_update_not_found_title": {
-        "message": ""
     },
     "options_popup_update_not_found": {
         "message": "업데이트 없음"

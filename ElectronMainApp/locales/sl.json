@@ -65,9 +65,6 @@
     "options_about_updates_not_found": {
         "message": "AdGuard za Safari je posodobljen"
     },
-    "options_about_updates_error": {
-        "message": ""
-    },
     "options_about_update_downloaded": {
         "message": "Skoraj posodobljen! Znova zaženite AdGuard za Safari, da dokonča posodabljanje."
     },
@@ -245,24 +242,6 @@
     "options_filters_check_filters_update": {
         "message": "Preveri obstoj posodobitev filtrov"
     },
-    "options_allowlist": {
-        "message": ""
-    },
-    "options_allowlist_description": {
-        "message": ""
-    },
-    "options_allowlist_inverted": {
-        "message": ""
-    },
-    "options_allowlist_info_multi": {
-        "message": ""
-    },
-    "options_allowlist_no_domains": {
-        "message": ""
-    },
-    "options_allowlist_inverse": {
-        "message": ""
-    },
     "options_userfilter": {
         "message": "Uporabniška pravila"
     },
@@ -298,9 +277,6 @@
     },
     "options_popup_update_version_error": {
         "message": "Različica filtra, ki jo poskušate posodobiti, je enaka ali starejša"
-    },
-    "options_popup_update_not_found_title": {
-        "message": ""
     },
     "options_popup_update_not_found": {
         "message": "Ni najdenih posodobitev"
