@@ -264,10 +264,10 @@
         "message": " (Инвертирован)"
     },
     "options_allowlist_info_multi": {
-        "message": "%s домен"
+        "message": "Доменов в списке: %s"
     },
     "options_allowlist_no_domains": {
-        "message": "%s домены"
+        "message": "Список пуст"
     },
     "options_allowlist_inverse": {
         "message": "Инвертировать белый список<span class='sp-table-row-info'>Разблокировать рекламу на всех сайтах, <i>кроме</i> добавленных в белый список</span>"
@@ -275,11 +275,11 @@
     "options_userfilter": {
         "message": "Пользовательские правила"
     },
-    "options_userfilter_info_single": {
-        "message": "%s пользовательское правило"
-    },
     "options_userfilter_info_multi": {
-        "message": "%s пользовательские правила"
+        "message": "Пользовательских правил: %s"
+    },
+    "options_userfilter_no_user_rules": {
+        "message": "Список пуст"
     },
     "options_userfilter_description": {
         "message": "Вы можете добавлять свои собственные правила фильтрации в&nbsp;Пользовательские правила. Рекомендуется только для опытных пользователей, знакомых с&nbsp;HTML/CSS. Перейдите по&nbsp;<a class='spl-user-descr-link' href='https://adguard.com/filterrules.html?utm_source=extension&aid=16593' target='_blank'>ссылке</a>, чтобы узнать, как составлять правила фильтрации."
