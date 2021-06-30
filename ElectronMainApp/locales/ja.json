@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard for Safariは最新状態です。"
     },
+    "options_about_updates_error": {
+        "message": ""
+    },
     "options_about_update_downloaded": {
         "message": "最新状態まであと一歩。アップデートを完了させるには、AdGuard for Safariを再起動してください。"
     },
@@ -242,22 +245,22 @@
     "options_filters_check_filters_update": {
         "message": "フィルタのアップデートを確認する"
     },
-    "options_whitelist": {
+    "options_allowlist": {
         "message": ""
     },
-    "options_whitelist_description": {
+    "options_allowlist_description": {
         "message": ""
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": ""
     },
-    "options_whitelist_info_single": {
+    "options_allowlist_info_multi": {
         "message": ""
     },
-    "options_whitelist_info_multi": {
+    "options_allowlist_no_domains": {
         "message": ""
     },
-    "options_whitelist_inverse": {
+    "options_allowlist_inverse": {
         "message": ""
     },
     "options_userfilter": {
@@ -294,6 +297,9 @@
         "message": "フィルタ更新エラー"
     },
     "options_popup_update_version_error": {
+        "message": ""
+    },
+    "options_popup_update_not_found_title": {
         "message": ""
     },
     "options_popup_update_not_found": {

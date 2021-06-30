@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard для Safari оновлено"
     },
+    "options_about_updates_error": {
+        "message": "Помилка оновлення"
+    },
     "options_about_update_downloaded": {
         "message": "Майже оновлено! Перезапустіть AdGuard для Safari, щоб застосувати оновлення."
     },
@@ -242,23 +245,23 @@
     "options_filters_check_filters_update": {
         "message": "Перевірити оновлення фільтрів"
     },
-    "options_whitelist": {
+    "options_allowlist": {
         "message": "Список дозволів"
     },
-    "options_whitelist_description": {
-        "message": "AdGuard не фільтрує вебсайти, додані до списку дозволів."
+    "options_allowlist_description": {
+        "message": "AdGuard не фільтрує вебсайти зі Списку дозволів."
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": " (Інвертовано)"
     },
-    "options_whitelist_info_single": {
-        "message": "%s домен"
+    "options_allowlist_info_multi": {
+        "message": "Домени: %s"
     },
-    "options_whitelist_info_multi": {
-        "message": "Доменів: %s"
+    "options_allowlist_no_domains": {
+        "message": "Список дозволів порожній"
     },
-    "options_whitelist_inverse": {
-        "message": "Інвертувати список дозволів<span class='sp-table-row-info'>Розблокувати рекламу всюди, <i>за винятком</i> вебсайтів зі списку дозволів</span>"
+    "options_allowlist_inverse": {
+        "message": "Інвертувати Список дозволів<span class='sp-table-row-info'>Розблокувати рекламу всюди, <i>окрім</i> вебсайтів зі Списку дозволів</span>"
     },
     "options_userfilter": {
         "message": "Правила користувача"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Версія фільтра, який ви намагаєтесь оновити, така ж або старіша"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Усі фільтри уже оновлено"
     },
     "options_popup_update_not_found": {
         "message": "Оновлень не знайдено"

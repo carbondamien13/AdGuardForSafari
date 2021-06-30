@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard til Safari er opdateret"
     },
+    "options_about_updates_error": {
+        "message": "Opdateringsfejl"
+    },
     "options_about_update_downloaded": {
         "message": "Næsten opdateret! Genstart AdGuard til Safari for at færdiggøre opdateringen."
     },
@@ -242,22 +245,22 @@
     "options_filters_check_filters_update": {
         "message": "Søg efter filteropdateringer"
     },
-    "options_whitelist": {
+    "options_allowlist": {
         "message": "Hvidliste"
     },
-    "options_whitelist_description": {
+    "options_allowlist_description": {
         "message": "AdGuard filtrerer ikke websteder fra hvidlisten."
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": " (Inverteret)"
     },
-    "options_whitelist_info_single": {
-        "message": "%s domæne"
+    "options_allowlist_info_multi": {
+        "message": "Domæner: %s"
     },
-    "options_whitelist_info_multi": {
-        "message": "%s domæner"
+    "options_allowlist_no_domains": {
+        "message": "Hvidliste er tom"
     },
-    "options_whitelist_inverse": {
+    "options_allowlist_inverse": {
         "message": "Invertér Hvidliste<span class='sp-table-row-info'>Afblokér annoncer overalt <i>undtagen</i> for websteder på hvidlisten</span>"
     },
     "options_userfilter": {
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Versionen på opdateringen til det filter, du forsøger at opdatere, er identisk eller ældre"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Alle filtre er opdaterede"
     },
     "options_popup_update_not_found": {
         "message": "Ingen opdateringer fundet"

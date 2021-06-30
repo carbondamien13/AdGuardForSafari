@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "O AdGuard para Safari está atualizado"
     },
+    "options_about_updates_error": {
+        "message": ""
+    },
     "options_about_update_downloaded": {
         "message": "Quase atualizado! Reinicie o AdGuard para Safari para concluir a atualização."
     },
@@ -242,22 +245,22 @@
     "options_filters_check_filters_update": {
         "message": "Verificar atualizações de filtros"
     },
-    "options_whitelist": {
+    "options_allowlist": {
         "message": "Lista de permissões"
     },
-    "options_whitelist_description": {
+    "options_allowlist_description": {
         "message": "O AdGuard não irá filtrar os sites da listas de permissões."
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": " (Invertida)"
     },
-    "options_whitelist_info_single": {
-        "message": "%s domínio"
+    "options_allowlist_info_multi": {
+        "message": "Domínios: %s"
     },
-    "options_whitelist_info_multi": {
-        "message": "%s domínios"
+    "options_allowlist_no_domains": {
+        "message": "Lsta de permissões está vazia"
     },
-    "options_whitelist_inverse": {
+    "options_allowlist_inverse": {
         "message": "Inverter listas de permissões<span class='sp-table-row-info'>Desbloquear todos anúncios <i>exceto</i> os da listas de permissões</span>"
     },
     "options_userfilter": {
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "A versão do filtro que você está tentando atualizar é a mesma ou mais antiga"
+    },
+    "options_popup_update_not_found_title": {
+        "message": ""
     },
     "options_popup_update_not_found": {
         "message": "Não há atualizações disponíveis"

@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard pentru Safari este la zi"
     },
+    "options_about_updates_error": {
+        "message": ""
+    },
     "options_about_update_downloaded": {
         "message": "Aproape la zi! Relansați AdGuard pentru ca Safari să termine actualizarea."
     },
@@ -242,22 +245,22 @@
     "options_filters_check_filters_update": {
         "message": "Verifică actualizări filtre"
     },
-    "options_whitelist": {
+    "options_allowlist": {
         "message": "Listă autorizări"
     },
-    "options_whitelist_description": {
+    "options_allowlist_description": {
         "message": "AdGuard nu filtrează site-urile web din lista de autorizări."
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": " (Inversate)"
     },
-    "options_whitelist_info_single": {
+    "options_allowlist_info_multi": {
         "message": "%s domeniu"
     },
-    "options_whitelist_info_multi": {
+    "options_allowlist_no_domains": {
         "message": "%s domenii"
     },
-    "options_whitelist_inverse": {
+    "options_allowlist_inverse": {
         "message": "Listă autorizări inversată<span class='sp-table-row-info'>Deblochează reclame peste tot, <i> cu excepția</i> listei de autorizări</span>"
     },
     "options_userfilter": {
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Versiunea filtrului pe care încercați să îl actualizați este aceeași sau mai veche"
+    },
+    "options_popup_update_not_found_title": {
+        "message": ""
     },
     "options_popup_update_not_found": {
         "message": "Nu s-au găsit actualizări"

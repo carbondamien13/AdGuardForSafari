@@ -254,22 +254,22 @@
     "options_filters_check_filters_update": {
         "message": "Проверить обновления фильтров"
     },
-    "options_whitelist": {
+    "options_allowlist": {
         "message": "Белый список"
     },
-    "options_whitelist_description": {
+    "options_allowlist_description": {
         "message": "AdGuard не фильтрует рекламу на сайтах, добавленных в белый список."
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": " (Инвертирован)"
     },
-    "options_whitelist_info_single": {
+    "options_allowlist_info_multi": {
         "message": "%s домен"
     },
-    "options_whitelist_info_multi": {
+    "options_allowlist_no_domains": {
         "message": "%s домены"
     },
-    "options_whitelist_inverse": {
+    "options_allowlist_inverse": {
         "message": "Инвертировать белый список<span class='sp-table-row-info'>Разблокировать рекламу на всех сайтах, <i>кроме</i> добавленных в белый список</span>"
     },
     "options_userfilter": {

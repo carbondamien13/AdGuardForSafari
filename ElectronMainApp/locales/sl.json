@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard za Safari je posodobljen"
     },
+    "options_about_updates_error": {
+        "message": ""
+    },
     "options_about_update_downloaded": {
         "message": "Skoraj posodobljen! Znova zaženite AdGuard za Safari, da dokonča posodabljanje."
     },
@@ -242,23 +245,23 @@
     "options_filters_check_filters_update": {
         "message": "Preveri obstoj posodobitev filtrov"
     },
-    "options_whitelist": {
-        "message": "Seznam dovoljenih"
+    "options_allowlist": {
+        "message": ""
     },
-    "options_whitelist_description": {
-        "message": "AdGuard ne filtrira spletnih strani s seznama dovoljenih."
+    "options_allowlist_description": {
+        "message": ""
     },
-    "options_whitelist_inverted": {
-        "message": " (Obrnjeno)"
+    "options_allowlist_inverted": {
+        "message": ""
     },
-    "options_whitelist_info_single": {
-        "message": "%s domena"
+    "options_allowlist_info_multi": {
+        "message": ""
     },
-    "options_whitelist_info_multi": {
-        "message": "%s domen"
+    "options_allowlist_no_domains": {
+        "message": ""
     },
-    "options_whitelist_inverse": {
-        "message": "Obrni seznam dovoljenih<span class='sp-table-row-info'>Povsod dovoli oglase <i>razen</i> na spletnih straneh na Seznamu dovoljenih</span>"
+    "options_allowlist_inverse": {
+        "message": ""
     },
     "options_userfilter": {
         "message": "Uporabniška pravila"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Različica filtra, ki jo poskušate posodobiti, je enaka ali starejša"
+    },
+    "options_popup_update_not_found_title": {
+        "message": ""
     },
     "options_popup_update_not_found": {
         "message": "Ni najdenih posodobitev"

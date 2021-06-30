@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard for Safari is up to date"
     },
+    "options_about_updates_error": {
+        "message": "Güncelleme hatası"
+    },
     "options_about_update_downloaded": {
         "message": "Neredeyse güncel! Güncellemeyi bitirmek için Safari için Adguard'ı yeniden başlat."
     },
@@ -242,22 +245,22 @@
     "options_filters_check_filters_update": {
         "message": "Filtre güncellemelerini denetle"
     },
-    "options_whitelist": {
+    "options_allowlist": {
         "message": "İzin verilen listesi"
     },
-    "options_whitelist_description": {
+    "options_allowlist_description": {
         "message": "AdGuard, İzin verilen listedeki sitelerde reklamları engellemez."
     },
-    "options_whitelist_inverted": {
+    "options_allowlist_inverted": {
         "message": " (ters çevrilmiş)"
     },
-    "options_whitelist_info_single": {
-        "message": "%s alan adı"
+    "options_allowlist_info_multi": {
+        "message": "Alan adları: %s"
     },
-    "options_whitelist_info_multi": {
-        "message": "%s alan adları"
+    "options_allowlist_no_domains": {
+        "message": "İzin verilen listesi boş"
     },
-    "options_whitelist_inverse": {
+    "options_allowlist_inverse": {
         "message": "İzin verilen listesini ters çevir<span class='sp-table-row-info'>İzin verilen listesindeki siteler <i>dışında</i> her yerde reklamların engelini kaldırın</span>"
     },
     "options_userfilter": {
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Güncellemeye çalıştığınız filtrenin sürümü aynı veya daha eski"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Tüm filtreler güncel"
     },
     "options_popup_update_not_found": {
         "message": "Güncelleme bulunamadı!"
