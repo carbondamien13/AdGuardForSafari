@@ -66,7 +66,7 @@
         "message": "AdGuard для Safari обновлен"
     },
     "options_about_updates_error": {
-        "message": "При обновлении возникла ошибка"
+        "message": "Ошибка обновления"
     },
     "options_about_update_downloaded": {
         "message": "Почти обновлено! Перезапустите расширение AdGuard для Safari, чтобы завершить обновление."
@@ -264,10 +264,10 @@
         "message": " (Инвертирован)"
     },
     "options_allowlist_info_multi": {
-        "message": "Доменов в списке: %s"
+        "message": "Домены: %s"
     },
     "options_allowlist_no_domains": {
-        "message": "Список пуст"
+        "message": "Белый список пуст"
     },
     "options_allowlist_inverse": {
         "message": "Инвертировать белый список<span class='sp-table-row-info'>Разблокировать рекламу на всех сайтах, <i>кроме</i> добавленных в белый список</span>"
@@ -312,7 +312,7 @@
         "message": "Версия фильтра, который вы хотите обновить, та же или более старая"
     },
     "options_popup_update_not_found_title": {
-        "message": "Все фильтры в актуальном состоянии"
+        "message": "Все фильтры обновлены"
     },
     "options_popup_update_not_found": {
         "message": "Обновления не найдены"

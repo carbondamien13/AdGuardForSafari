@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard for Safari 已为最新版本"
     },
+    "options_about_updates_error": {
+        "message": "更新错误"
+    },
     "options_about_update_downloaded": {
         "message": "更新近乎完成！请重启 AdGuard for Safari 以完成更新。"
     },
@@ -246,19 +249,19 @@
         "message": "白名单"
     },
     "options_allowlist_description": {
-        "message": "AdGuard 不过滤白名单上的网站。"
+        "message": "AdGuard 不过滤来自白名单的网站。"
     },
     "options_allowlist_inverted": {
         "message": " (颠倒的)"
     },
     "options_allowlist_info_multi": {
-        "message": "%s 个域名"
+        "message": "域名：%s"
     },
     "options_allowlist_no_domains": {
-        "message": "%s 个域名"
+        "message": "白名单为空"
     },
     "options_allowlist_inverse": {
-        "message": "颠倒白名单<span class='sp-table-row-info'>取消所有网站上的广告拦截，白名单上的网站<i>除外</i></span>"
+        "message": "反转白名单<span class='sp-table-row-info'>取消所有网站上的广告拦截，白名单上的网站<i>除外</i></span>"
     },
     "options_userfilter": {
         "message": "用户规则"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "您试图更新的过滤器版本是一样或更老的"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "所有过滤器已更新至最新"
     },
     "options_popup_update_not_found": {
         "message": "未找到更新"

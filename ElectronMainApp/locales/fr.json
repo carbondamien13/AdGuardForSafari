@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard pour Safari est à jour"
     },
+    "options_about_updates_error": {
+        "message": "Erreur de mise à jour"
+    },
     "options_about_update_downloaded": {
         "message": "Presque à jour! Relancez AdGuard pour Safari pour terminer la mise à jour."
     },
@@ -252,10 +255,10 @@
         "message": " (Inversée)"
     },
     "options_allowlist_info_multi": {
-        "message": "%s domaine"
+        "message": "Domaines : %s"
     },
     "options_allowlist_no_domains": {
-        "message": "%s domaines"
+        "message": "La liste blanche est vide"
     },
     "options_allowlist_inverse": {
         "message": "Inverser la Liste blanche<span class='sp-table-row-info'>Débloquer la publicité partout <i>excepté</i> la Liste blanche</span>"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "La version du filtre que vous essayez de mettre à jour est la même ou plus ancienne"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Tous les filtres sont à jour"
     },
     "options_popup_update_not_found": {
         "message": "Aucune mise à jour trouvée"
