@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard para Safari está actualizado"
     },
+    "options_about_updates_error": {
+        "message": "Error de actualización"
+    },
     "options_about_update_downloaded": {
         "message": "¡Casi actualizado! Reinicia AdGuard para Safari y así finalizar la actualización."
     },
@@ -252,10 +255,10 @@
         "message": " (Invertido)"
     },
     "options_allowlist_info_multi": {
-        "message": "%s dominio"
+        "message": "Dominios: %s"
     },
     "options_allowlist_no_domains": {
-        "message": "%s dominios"
+        "message": "La lista de permitido está vacía"
     },
     "options_allowlist_inverse": {
         "message": "Invertir lista de permitido<span class='sp-table-row-info'>Desbloquea anuncios en todas partes <i>excepto</i> en los sitios web de esta lista</span>"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "La versión del filtro que estás intentando actualizar es la misma o anterior"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Todos los filtros están actualizados"
     },
     "options_popup_update_not_found": {
         "message": "No se han encontrado actualizaciones"

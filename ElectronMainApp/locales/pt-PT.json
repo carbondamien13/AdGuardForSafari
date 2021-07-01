@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "O AdGuard para Safari está atualizado"
     },
+    "options_about_updates_error": {
+        "message": "Erro ao atualizar"
+    },
     "options_about_update_downloaded": {
         "message": "A atualização está quase completa! Abra novamente o AdGuard para safari para finalizar a atualização."
     },
@@ -246,7 +249,7 @@
         "message": "Lista de permissões"
     },
     "options_allowlist_description": {
-        "message": "O AdGuard não irá filtrar nenhum site da listas de permissões."
+        "message": "O AdGuard não irá filtrar nenhum sítio da listas de permissões."
     },
     "options_allowlist_inverted": {
         "message": " (Invertida)"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "A versão do filtro que tu estás tentando atualizar é a mesma ou mais antiga"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Todos os filtros estão atualizados"
     },
     "options_popup_update_not_found": {
         "message": "Não há atualizações disponíveis"

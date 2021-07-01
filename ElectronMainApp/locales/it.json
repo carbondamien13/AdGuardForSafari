@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard per Safari è aggiornato."
     },
+    "options_about_updates_error": {
+        "message": "Errore di aggiornamento"
+    },
     "options_about_update_downloaded": {
         "message": "Hai quasi finito! Riavvia AdGuard per Safari per completare l'aggiornamento."
     },
@@ -249,16 +252,16 @@
         "message": "AdGuard non filtrerà i siti sulla Lista bianca."
     },
     "options_allowlist_inverted": {
-        "message": " (inverso)"
+        "message": " (Inverso)"
     },
     "options_allowlist_info_multi": {
-        "message": "%s dominio"
+        "message": "Domini: %s"
     },
     "options_allowlist_no_domains": {
-        "message": "%s domini"
+        "message": "La lista bianca è vuota"
     },
     "options_allowlist_inverse": {
-        "message": "Inverti Lista Bianca<span class='sp-table-row-info'>Sblocca annunci dappertutto <i>eccetto i</i> sui siti web della lista bianca</span>"
+        "message": "Inverti la Lista bianca<span class='sp-table-row-info'>Sblocca gli annunci ovunque<i>eccetto sui</i> siti web dalla Lista bianca</span>"
     },
     "options_userfilter": {
         "message": "Regole utente"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "La versione del filtro che stai tentando di aggiornare è uguale alla precedente"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Tutti i filtri sono aggiornati"
     },
     "options_popup_update_not_found": {
         "message": "Nessun aggiornamento trovato"
