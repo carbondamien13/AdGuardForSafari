@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "AdGuard für Safari ist aktuell"
     },
+    "options_about_updates_error": {
+        "message": "Fehler bei der Aktualisierung"
+    },
     "options_about_update_downloaded": {
         "message": "Fast geschafft! Starten Sie AdGuard für Safari neu, um die Aktualisierung abzuschließen."
     },
@@ -246,19 +249,19 @@
         "message": "Freigabeliste"
     },
     "options_allowlist_description": {
-        "message": "AdGuard filtert keine Webseiten, die in der Freigabeliste enthalten sind."
+        "message": "AdGuard filtert keine Webseiten aus der Freigabeliste."
     },
     "options_allowlist_inverted": {
         "message": " (Invertiert)"
     },
     "options_allowlist_info_multi": {
-        "message": "%s Domain"
+        "message": "Domains: %s"
     },
     "options_allowlist_no_domains": {
-        "message": "%s Domains"
+        "message": "Freigabeliste ist leer"
     },
     "options_allowlist_inverse": {
-        "message": "Freigabeliste invertieren<span class='sp-table-row-info'>Werbung überall zulassen, <i>außer auf Webseiten</i> die in der Freigabeliste enthalten sind</span>"
+        "message": "Freigabeliste invertieren<span class='sp-table-row-info'>Werbung überall zulassen, <i>außer auf Webseiten</i> aus der Freigabeliste</span>"
     },
     "options_userfilter": {
         "message": "Benutzerregeln"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Die Version des Filters, den Sie zu aktualisieren versuchen, ist identisch oder älter"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Alle Filter sind aktuell"
     },
     "options_popup_update_not_found": {
         "message": "Keine Updates gefunden"

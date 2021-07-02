@@ -65,6 +65,9 @@
     "options_about_updates_not_found": {
         "message": "Safari용 AdGuard는 최신 버전입니다"
     },
+    "options_about_updates_error": {
+        "message": "업데이트 오류"
+    },
     "options_about_update_downloaded": {
         "message": "곧 업데이트가 완료됩니다! Safari용 AdGuard를 재시작하여 업데이트를 완료하세요."
     },
@@ -243,22 +246,22 @@
         "message": "필터 업데이트 확인"
     },
     "options_allowlist": {
-        "message": "예외 목록"
+        "message": "허용 목록"
     },
     "options_allowlist_description": {
-        "message": "AdGuard는 예외 목록에 있는 웹사이트를 필터링하지 않습니다."
+        "message": "AdGuard는 허용 목록에 있는 웹 사이트를 필터링하지 않습니다."
     },
     "options_allowlist_inverted": {
-        "message": " (반전된)"
+        "message": " (반전됨)"
     },
     "options_allowlist_info_multi": {
-        "message": "도메인 %s개"
+        "message": "도메인: %s"
     },
     "options_allowlist_no_domains": {
-        "message": "도메인 %s개"
+        "message": "허용 목록이 비어 있음"
     },
     "options_allowlist_inverse": {
-        "message": "예외 목록 반전<span class='sp-table-row-info'>예외 목록을 <i>제외한</i> 모든 곳의 광고를 차단 해제</span>"
+        "message": "허용 목록 반전<span class='sp-table-row-info'>허용 목록을 <i>제외한</i> 모든 곳의 광고를 차단 해제</span>"
     },
     "options_userfilter": {
         "message": "사용자 규칙"
@@ -295,6 +298,9 @@
     },
     "options_popup_update_version_error": {
         "message": "업데이트하려는 필터의 버전이 같거나 더 오래되었습니다"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "모든 필터가 최신 버전입니다"
     },
     "options_popup_update_not_found": {
         "message": "업데이트 없음"
