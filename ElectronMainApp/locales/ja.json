@@ -14,6 +14,15 @@
     "options_filters_filter_trusted_tag_desc": {
         "message": "あなたはこのフィルタを信頼するようにしました"
     },
+    "options_support_rate_description": {
+        "message": "AdGuardに関するご意見をお伝えください。"
+    },
+    "options_support_discuss_title": {
+        "message": "AdGuardを話し合う"
+    },
+    "options_support_discuss_description": {
+        "message": "AdGuardのフォーラム、SNS、GitHub"
+    },
     "options_about_update_check": {
         "message": "アップデートを確認中"
     },
@@ -110,6 +119,9 @@
     "options_filters_empty_custom_add_button": {
         "message": "カスタムフィルタを追加"
     },
+    "options_popup_import_file_error_title": {
+        "message": "インポートエラー"
+    },
     "options_filters_custom_step_one_title": {
         "message": "新しいフィルタ・サブスクリプション"
     },
@@ -172,6 +184,12 @@
     },
     "options_filters_check_filters_update": {
         "message": "フィルタのアップデートを確認する"
+    },
+    "options_allowlist": {
+        "message": "ホワイトリスト"
+    },
+    "options_allowlist_description": {
+        "message": "ホワイトリストにあるウェブサイトをAdGuardはフィルタリング（広告ブロック等）しません。"
     },
     "options_userfilter": {
         "message": "ユーザールール"
