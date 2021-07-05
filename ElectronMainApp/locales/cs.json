@@ -266,9 +266,6 @@
     "options_userfilter": {
         "message": "Uživatelská pravidla"
     },
-    "options_userfilter_info_single": {
-        "message": "Uživatelské pravidlo: %s"
-    },
     "options_userfilter_info_multi": {
         "message": "Uživatelská pravidla: %s"
     },

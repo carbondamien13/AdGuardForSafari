@@ -260,9 +260,6 @@
     "options_userfilter": {
         "message": "Uporabniška pravila"
     },
-    "options_userfilter_info_single": {
-        "message": "%s uporabniškopravilo"
-    },
     "options_userfilter_info_multi": {
         "message": "%s uporabniških pravil"
     },

@@ -266,9 +266,6 @@
     "options_userfilter": {
         "message": "使用者規則"
     },
-    "options_userfilter_info_single": {
-        "message": "%s 使用者規則"
-    },
     "options_userfilter_info_multi": {
         "message": "%s 使用者規則"
     },

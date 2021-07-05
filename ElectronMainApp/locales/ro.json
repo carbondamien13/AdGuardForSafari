@@ -266,9 +266,6 @@
     "options_userfilter": {
         "message": "Reguli Utilizator"
     },
-    "options_userfilter_info_single": {
-        "message": "%s regulă utilizator"
-    },
     "options_userfilter_info_multi": {
         "message": "%s reguli utilizatori"
     },

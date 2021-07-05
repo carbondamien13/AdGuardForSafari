@@ -266,9 +266,6 @@
     "options_userfilter": {
         "message": "Kullanıcı kuralları"
     },
-    "options_userfilter_info_single": {
-        "message": "%s kullanıcı kuralı"
-    },
     "options_userfilter_info_multi": {
         "message": "%s kullanıcı kuralları"
     },

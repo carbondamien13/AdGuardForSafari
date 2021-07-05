@@ -266,9 +266,6 @@
     "options_userfilter": {
         "message": "Regras de usuário"
     },
-    "options_userfilter_info_single": {
-        "message": "%s regra de usuário"
-    },
     "options_userfilter_info_multi": {
         "message": "%s regras de usuário"
     },
