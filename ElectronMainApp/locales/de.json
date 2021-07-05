@@ -269,6 +269,9 @@
     "options_userfilter_info_multi": {
         "message": "%s Benutzerregeln"
     },
+    "options_userfilter_no_user_rules": {
+        "message": "Liste ist leer"
+    },
     "options_userfilter_description": {
         "message": "Sie können Ihre eigenen Regeln zu Benutzerregeln hinzufügen. Diese Option ist für die mit HTML/CSS vertrauten fortgeschrittenen Benutzer empfohlen. Lesen Sie <a class='spl-user-descr-link' href='https://adguard.com/filterrules.html?utm_source=extension&aid=16593' target='_blank'>die Filterregeln-Anleitung</a>, um zu erfahren, wie Sie Ihre eigenen Filterregeln schreiben können."
     },

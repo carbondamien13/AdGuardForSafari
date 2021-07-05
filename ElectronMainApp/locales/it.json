@@ -269,6 +269,9 @@
     "options_userfilter_info_multi": {
         "message": "%s regole utente"
     },
+    "options_userfilter_no_user_rules": {
+        "message": "La lista è vuota"
+    },
     "options_userfilter_description": {
         "message": "Puoi aggiungere le tue regole qui. Questa opzione è&nbsp;consigliata per utenti avanzati esperti di HTML/CSS. Leggi il <a class='spl-user-descr-link' href='https://adguard.com/forward.html?action=filterrules&from=options_screen&app=safari_extension' target='_blank'>tutorial sulle regole per i filtri</a> per&nbsp;imparare a&nbsp;scrivere le tue regole per i filtri."
     },

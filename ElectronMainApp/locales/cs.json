@@ -269,6 +269,9 @@
     "options_userfilter_info_multi": {
         "message": "Uživatelská pravidla: %s"
     },
+    "options_userfilter_no_user_rules": {
+        "message": "Seznam je prázdný"
+    },
     "options_userfilter_description": {
         "message": "Zde můžete přidat vlastní pravidla. Tato možnost je doporučena pro pokročilé uživatele, kteří jsou obeznámeni s HTML/CSS. Chcete-li se neučit psát svá vlastní filtrovací pravidla, přečtěte si <a class='spl-user-descr-link' href='https://adguard.com/forward.html?action=filterrules&from=options_screen&app=safari_extension' target='_blank'>filter rules tutorial</a>návod filtrovacích pravidel</a>."
     },
