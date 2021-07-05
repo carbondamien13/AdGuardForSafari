@@ -242,6 +242,21 @@
     "options_filters_check_filters_update": {
         "message": "Preveri obstoj posodobitev filtrov"
     },
+    "options_allowlist": {
+        "message": "Seznam dovoljenih"
+    },
+    "options_allowlist_description": {
+        "message": "AdGuard ne filtrira spletnih strani s seznama dovoljenih."
+    },
+    "options_allowlist_inverted": {
+        "message": " (Obrnjeno)"
+    },
+    "options_allowlist_no_domains": {
+        "message": "Seznam dovoljenih je prazen"
+    },
+    "options_allowlist_inverse": {
+        "message": "Obrni seznam dovoljenih<span class='sp-table-row-info'>Povsod dovoli oglase <i>razen</i> na spletnih straneh na Seznamu dovoljenih</span>"
+    },
     "options_userfilter": {
         "message": "Uporabniška pravila"
     },
@@ -277,6 +292,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Različica filtra, ki jo poskušate posodobiti, je enaka ali starejša"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Vsi filtri so že posodobljeni"
     },
     "options_popup_update_not_found": {
         "message": "Ni najdenih posodobitev"

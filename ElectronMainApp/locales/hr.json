@@ -255,7 +255,7 @@
         "message": "%s domena"
     },
     "options_allowlist_no_domains": {
-        "message": "%s domene"
+        "message": "Popis dopuštenih je prazan"
     },
     "options_allowlist_inverse": {
         "message": "Izokrenite popis dopuštenih<span class='sp-table-row-info'>Odblokira oglase svugdje <i>osim</i> na popisu dopuštenih</span>"
@@ -295,6 +295,9 @@
     },
     "options_popup_update_version_error": {
         "message": "Verzija filtra koji pokušavate ažurirati ista je ili starija"
+    },
+    "options_popup_update_not_found_title": {
+        "message": "Svi filtri su ažurirani"
     },
     "options_popup_update_not_found": {
         "message": "Nisu pronađena ažuriranja"
