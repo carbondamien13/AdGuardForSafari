@@ -267,7 +267,7 @@
         "message": "Reglas del usuario"
     },
     "options_userfilter_info_multi": {
-        "message": "%s reglas de usuario"
+        "message": "Reglas de usuario: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "La lista está vacía"

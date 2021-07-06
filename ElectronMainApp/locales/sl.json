@@ -261,7 +261,7 @@
         "message": "Uporabniška pravila"
     },
     "options_userfilter_info_multi": {
-        "message": "%s uporabniških pravil"
+        "message": "Uporabniških pravil: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "Seznam je prazen"

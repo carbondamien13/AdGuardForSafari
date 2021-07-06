@@ -267,7 +267,7 @@
         "message": "Reguli Utilizator"
     },
     "options_userfilter_info_multi": {
-        "message": "%s reguli utilizatori"
+        "message": "Reguli utilizator: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "lista este goală"

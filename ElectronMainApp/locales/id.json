@@ -267,7 +267,7 @@
         "message": "Penyaring pengguna"
     },
     "options_userfilter_info_multi": {
-        "message": "%s aturan pengguna"
+        "message": "Penyaring pengguna: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "Daftar kosong"

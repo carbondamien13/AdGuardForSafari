@@ -267,7 +267,7 @@
         "message": "Benutzerregeln"
     },
     "options_userfilter_info_multi": {
-        "message": "%s Benutzerregeln"
+        "message": "Benutzerregeln: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "Liste ist leer"

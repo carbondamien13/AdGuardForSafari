@@ -267,7 +267,7 @@
         "message": "사용자 규칙"
     },
     "options_userfilter_info_multi": {
-        "message": "사용자 규칙 %s개"
+        "message": "사용자 규칙: % s"
     },
     "options_userfilter_no_user_rules": {
         "message": "목록이 비어 있습니다"

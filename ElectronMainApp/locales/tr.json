@@ -267,7 +267,7 @@
         "message": "Kullanıcı kuralları"
     },
     "options_userfilter_info_multi": {
-        "message": "%s kullanıcı kuralları"
+        "message": "Kullanıcı kuralları: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "Listesi boş"

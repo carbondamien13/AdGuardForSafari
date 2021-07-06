@@ -264,7 +264,7 @@
         "message": "Korisnička pravila"
     },
     "options_userfilter_info_multi": {
-        "message": "%s korisničkih pravila"
+        "message": "Korisnička pravila: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "Popis je prazan"

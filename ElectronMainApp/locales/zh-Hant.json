@@ -267,7 +267,7 @@
         "message": "使用者規則"
     },
     "options_userfilter_info_multi": {
-        "message": "%s 使用者規則"
+        "message": "使用者規則: %s"
     },
     "options_userfilter_description": {
         "message": "您可於此新增您自己的規則。對於熟悉 HTML/CSS 之進階的用戶，此選項是被建議的。閱讀<a class='spl-user-descr-link' href='https://adguard.com/forward.html?action=filterrules&from=options_screen&app=safari_extension' target='_blank'>過濾器規則導覽</a>以學習如何撰寫您自己的過濾器規則。"

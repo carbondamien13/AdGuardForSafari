@@ -267,7 +267,7 @@
         "message": "Brugerregler"
     },
     "options_userfilter_info_multi": {
-        "message": "%s brugerregler"
+        "message": "Brugerregler: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "Liste er tom"

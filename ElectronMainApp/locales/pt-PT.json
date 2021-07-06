@@ -267,7 +267,7 @@
         "message": "Regras do utilizador"
     },
     "options_userfilter_info_multi": {
-        "message": "%s regras do utilizador"
+        "message": "Regras do utilizador: %s"
     },
     "options_userfilter_no_user_rules": {
         "message": "Lsta está vazia"
