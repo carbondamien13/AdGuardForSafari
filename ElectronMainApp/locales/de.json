@@ -168,7 +168,7 @@
         "message": "Aktualisiert: %s"
     },
     "options_filters_empty_custom_filters": {
-        "message": "Leider verfügen Sie noch über keine Eigenen Filter"
+        "message": "Es wurden noch keine Eigenen Filter angelegt"
     },
     "options_filters_empty_custom_add_button": {
         "message": "Eigenen Filter hinzufügen"
