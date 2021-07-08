@@ -27,7 +27,7 @@
         "message": "Hata bildir"
     },
     "options_support_bug_report_description": {
-        "message": "Eğer programda bir şey düzgün çalışmıyorsa"
+        "message": "Programda bir şey düzgün çalışmıyorsa"
     },
     "options_support_incorrect_blocking_title": {
         "message": "Hatalı engellemeyi bildir"
@@ -36,7 +36,7 @@
         "message": "Kaçan bir reklam veya \"bozuk\" bir site görürseniz"
     },
     "options_support_feedback_title": {
-        "message": "Geri bildirimde bulunun"
+        "message": "Geri bildirimde bulun"
     },
     "options_support_feedback_description": {
         "message": "Yeni özellik isteği veya öneri gönderin"
