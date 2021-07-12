@@ -85,6 +85,8 @@
 		65EF97B3236733DA000CC845 /* AALaunchAtLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EF97B1236733DA000CC845 /* AALaunchAtLogin.h */; };
 		65FA408D215E8B6B000196EC /* LinkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA408C215E8B6B000196EC /* LinkButton.m */; };
 		65FCA8AB256BBFD700D60C36 /* libs in Resources */ = {isa = PBXBuildFile; fileRef = F4C57F9B2514D6C300A9B7BE /* libs */; };
+		B4A4292B269CFAD10095BB40 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4292A269CFAD10095BB40 /* SafariExtensionHandler.swift */; };
+		B4A42939269CFC480095BB40 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4292A269CFAD10095BB40 /* SafariExtensionHandler.swift */; };
 		F410563022EA2521003871C5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65216A02212436EA00ABF7D0 /* Cocoa.framework */; };
 		F410563622EA2521003871C5 /* ContentBlockerRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F410563522EA2521003871C5 /* ContentBlockerRequestHandler.m */; };
 		F410563B22EA2521003871C5 /* BlockerSocialExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F410562F22EA2521003871C5 /* BlockerSocialExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -545,6 +547,7 @@
 		845498BC24BBD1D100142B87 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		845498BD24BBD1D100142B87 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		845498BE24BBD1D100142B87 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B4A4292A269CFAD10095BB40 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		F410562F22EA2521003871C5 /* BlockerSocialExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BlockerSocialExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F410563422EA2521003871C5 /* ContentBlockerRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentBlockerRequestHandler.h; sourceTree = "<group>"; };
 		F410563522EA2521003871C5 /* ContentBlockerRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentBlockerRequestHandler.m; sourceTree = "<group>"; };
@@ -884,6 +887,7 @@
 				65975C9F21484E13007F766E /* GreenButtonCell.m */,
 				65FA408B215E8B6B000196EC /* LinkButton.h */,
 				65FA408C215E8B6B000196EC /* LinkButton.m */,
+				B4A4292A269CFAD10095BB40 /* SafariExtensionHandler.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -1832,6 +1836,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A42939269CFC480095BB40 /* SafariExtensionHandler.swift in Sources */,
 				65216A0A212436EA00ABF7D0 /* SafariExtensionViewController.m in Sources */,
 				655C8662212AEA3200CB6DAE /* NSDate+Utils.m in Sources */,
 				655C8667212AEA3200CB6DAE /* NSException+Utils.m in Sources */,
@@ -1880,6 +1885,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A4292B269CFAD10095BB40 /* SafariExtensionHandler.swift in Sources */,
 				6565F4762639A806008711C6 /* fake_AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
