@@ -767,7 +767,7 @@ NAN_METHOD(sharedResourcesPath) {
 
 NAN_METHOD(getSafariVersion) {
 
-    NSString *result = [AESharedResources safariVersion]
+    NSString *result = [AESharedResources safariVersion];
 }
 
 
