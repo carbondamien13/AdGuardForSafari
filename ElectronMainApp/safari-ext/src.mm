@@ -768,6 +768,7 @@ NAN_METHOD(sharedResourcesPath) {
 NAN_METHOD(getSafariVersion) {
 
     NSString *result = [AESharedResources safariVersion];
+    info.GetReturnValue().Set(Nan::New(result.UTF8String).ToLocalChecked());
 }
 
 
