@@ -5,6 +5,9 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:WebExtension">
+   </FileRef>
+   <FileRef
       location = "group:Scripts">
    </FileRef>
    <FileRef
