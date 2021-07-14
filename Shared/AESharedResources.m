@@ -145,6 +145,7 @@ static AESListenerBlock _onAllExtensionEnabledRequestBlock;
 }
 + (NSString *)safariVersion{
     NSBundle *bundle = [NSBundle bundleWithIdentifier:ADC_PROCESS_DEFAULT_BUNDLE_ID];
+    DDLogInfo(@"AG: bundle");
     return [bundle.infoDictionary objectForKey:@"CFBundleShortVersionString"];
 }
 
