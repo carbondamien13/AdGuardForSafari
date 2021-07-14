@@ -39,8 +39,13 @@ module.exports = (function () {
      */
     const convertRulesToJson = async (rules, advancedBlocking) => {
         try {
-            const safariVersion = safariExt.getSafariVersion();
-            log.info(`SAFARI version: ${safariVersion}`);
+            let safariVersion = safariExt.getSafariVersion();
+            log.info(`Safari browser version: ${safariVersion}`);
+            if (safariVersion) {
+                // major version
+                safariVersion = safariVersion?.substring(0, 2);
+            }
+
             log.info(`ConverterTool version: ${getConverterVersion()}`);
             log.info(`Conversion of ${rules.length} rules started..`);
             const converterPath = resourcePath(CONVERTER_TOOL_PATH);

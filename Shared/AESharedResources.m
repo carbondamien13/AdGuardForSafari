@@ -144,8 +144,8 @@ static AESListenerBlock _onAllExtensionEnabledRequestBlock;
     return AG_BLOCKER_CUSTOM_BUNDLEID;
 }
 + (NSString *)safariVersion{
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:ADC_PROCESS_DEFAULT_BUNDLE_ID];
-    DDLogInfo(@"AG: bundle");
+    NSURL *path = [[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:ADC_PROCESS_DEFAULT_BUNDLE_ID];
+    NSBundle *bundle = [NSBundle bundleWithPath:path.path];
     return [bundle.infoDictionary objectForKey:@"CFBundleShortVersionString"];
 }
 
