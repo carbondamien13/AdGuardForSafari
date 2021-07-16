@@ -161,6 +161,9 @@
     "options_filters_no_enabled": {
         "message": "No filters enabled"
     },
+    "options_filters_no_filters": {
+        "message": "No filters"
+    },
     "options_filters_version": {
         "message": "version %s"
     },

@@ -170,6 +170,9 @@
     "options_filters_no_enabled": {
         "message": "Фильтры не включены"
     },
+    "options_filters_no_filters": {
+        "message": "Нет фильтров"
+    },
     "options_filters_version": {
         "message": "версия %s"
     },
