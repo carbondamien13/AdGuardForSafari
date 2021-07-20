@@ -260,7 +260,7 @@ module.exports = (() => {
         serviceClient.loadFilterRules(
             filter.filterId,
             forceRemote,
-            true,
+            false,
             successCallback,
             errorCallback
         );

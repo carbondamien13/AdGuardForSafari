@@ -164,9 +164,6 @@ module.exports = (function () {
      * @param rulesByAffinityBlocks
      */
     const sortWithAffinityBlocks = (filterRules, groupRules, rulesByAffinityBlocks) => {
-        log.info('sortWithAffinityBlocks:');
-        log.info(`filterRules: ${JSON.stringify(filterRules, null, 4)}`);
-        log.info(`groupRules: ${JSON.stringify(groupRules, null, 4)}`);
         if (!filterRules) {
             return;
         }
