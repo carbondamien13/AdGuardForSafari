@@ -66,6 +66,7 @@ module.exports = (function () {
         return new Promise((resolve) => {
             loadRules(async (rules) => {
                 const grouped = groupRules(rules);
+                log.info(`Grouped rules: ${JSON.stringify(grouped, null, 4)}`);
                 let overlimit = false;
 
                 for (const group of grouped) {
