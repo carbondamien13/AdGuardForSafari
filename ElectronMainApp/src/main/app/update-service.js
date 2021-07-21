@@ -103,6 +103,11 @@ module.exports = (function () {
             onUpdateLaunchAtLogin();
         }
 
+        if (versionUtils.isGreaterVersion('1.10.3', runInfo.prevVersion)) {
+            // force update filters to avoid using old cached local filters on first launch
+            filtersUpdate.checkAntiBannerFiltersUpdate(true);
+        }
+
         removeObsoleteFilters();
         cleanRemovedCustomFilters();
         callback();
