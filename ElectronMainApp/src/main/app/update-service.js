@@ -107,7 +107,9 @@ module.exports = (function () {
         if (versionUtils.isGreaterVersion('1.10.4', runInfo.prevVersion)) {
             // force update filters to avoid using old cached local filters on first launch
             log.info('Force updating filters for v1.10.4');
-            subscription.init();
+            subscription.init(() => {
+                log.info('Initialized filters subscription');
+            });
             filtersUpdate.checkAntiBannerFiltersUpdate(true);
         }
 
