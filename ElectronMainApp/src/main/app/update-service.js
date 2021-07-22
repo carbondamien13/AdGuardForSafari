@@ -108,9 +108,8 @@ module.exports = (function () {
             // force update filters to avoid using old cached local filters on first launch
             log.info('Force updating filters for v1.10.4');
             subscription.init(() => {
-                log.info('Initialized filters subscription');
+                filtersUpdate.checkAntiBannerFiltersUpdate(true);
             });
-            filtersUpdate.checkAntiBannerFiltersUpdate(true);
         }
 
         removeObsoleteFilters();
