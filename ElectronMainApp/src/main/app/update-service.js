@@ -6,6 +6,8 @@ const versionUtils = require('./utils/version');
 const settings = require('./settings-manager');
 const log = require('./utils/log');
 const filtersUpdate = require('./filters/filters-update');
+const events = require('../events');
+const listeners = require('../notifier');
 const { removeObsoleteFilters, cleanRemovedCustomFilters } = require('./filters-manager');
 
 /**
@@ -104,12 +106,13 @@ module.exports = (function () {
         }
 
         if (versionUtils.isGreaterVersion('1.10.4', runInfo.prevVersion)) {
-            // force update filters to avoid using old cached local filters on first launch
-            log.info('Force updating filters for v1.10.4');
-            // setTimeout is needed for filters initialization
-            setTimeout(() => {
-                filtersUpdate.checkAntiBannerFiltersUpdate(true);
-            }, 3000);
+            listeners.addListener((event) => {
+                // force update filters to avoid using old cached local filters on first launch
+                if (event === events.APPLICATION_INITIALIZED) {
+                    log.info('Force updating filters for v1.10.4');
+                    filtersUpdate.checkAntiBannerFiltersUpdate(true);
+                }
+            });
         }
 
         removeObsoleteFilters();
