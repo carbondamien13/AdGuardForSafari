@@ -6,6 +6,7 @@ const versionUtils = require('./utils/version');
 const settings = require('./settings-manager');
 const log = require('./utils/log');
 const filtersUpdate = require('./filters/filters-update');
+const subscription = require('./filters/subscriptions');
 const { removeObsoleteFilters, cleanRemovedCustomFilters } = require('./filters-manager');
 
 /**
@@ -106,6 +107,7 @@ module.exports = (function () {
         if (versionUtils.isGreaterVersion('1.10.4', runInfo.prevVersion)) {
             // force update filters to avoid using old cached local filters on first launch
             log.info('Force updating filters for v1.10.4');
+            subscription.init();
             filtersUpdate.checkAntiBannerFiltersUpdate(true);
         }
 
