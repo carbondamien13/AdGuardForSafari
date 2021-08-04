@@ -19,6 +19,18 @@ const rules = [
     },
     {
         filterId: 1,
+        ruleText: '!#safari_cb_affinity(other)',
+    },
+    {
+        filterId: 1,
+        ruleText: 'example6.org##.ad',
+    },
+    {
+        filterId: 1,
+        ruleText: '!#safari_cb_affinity',
+    },
+    {
+        filterId: 1,
         ruleText: '!#safari_cb_affinity',
     },
     {
@@ -33,19 +45,19 @@ const rules = [
         filterId: 4,
         ruleText: 'example5.org##.ad',
     },
-    {
-        filterId: 14,
-        ruleText: '!#safari_cb_affinity(other)',
-    },
-    {
-        filterId: 14,
-        ruleText: 'example6.org##.ad',
-    },
-    {
-        filterId: 14,
-        ruleText: '!#safari_cb_affinity',
-    },
 ];
+
+// ! Rules for test: affinity directive is inside another one
+// example1.org##.ad
+// !#safari_cb_affinity(security)
+// example2.org##.ad
+// !#safari_cb_affinity(other)
+// example6.org##.ad
+// !#safari_cb_affinity
+// !#safari_cb_affinity
+// example3.org##.ad
+// example4.org##.ad
+// example5.org##.ad
 
 describe('Rule groups test', () => {
     it('Affinity directive test', (done) => {
