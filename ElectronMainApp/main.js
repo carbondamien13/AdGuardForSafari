@@ -22,7 +22,6 @@ const startup = require('./src/main/startup');
 const trayController = require('./src/main/tray-controller');
 const toolbarController = require('./src/main/toolbar-controller');
 const mainMenuController = require('./src/main/main-menu.controller');
-// const pageController = require('./src/main/ui/js/page-controller');
 const settings = require('./src/main/app/settings-manager');
 const { getChannel, getConfiguration } = require('./src/main/app/app');
 
