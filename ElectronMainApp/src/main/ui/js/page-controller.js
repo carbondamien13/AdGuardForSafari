@@ -22,7 +22,8 @@ const PageController = function (
     isProtectionRunning,
     AntiBannerFiltersId,
     AntiBannerFilterGroupsId,
-    contentBlockerInfo
+    contentBlockerInfo,
+    rulesLimit
 ) {
     this.userSettings = userSettings;
     this.enabledFilters = enabledFilters;
@@ -31,6 +32,7 @@ const PageController = function (
     this.AntiBannerFiltersId = AntiBannerFiltersId;
     this.AntiBannerFilterGroupsId = AntiBannerFilterGroupsId;
     this.contentBlockerInfo = contentBlockerInfo;
+    this.rulesLimit = rulesLimit;
 };
 
 PageController.prototype = {
@@ -263,7 +265,8 @@ PageController.prototype = {
             this.enabledFilters,
             this.AntiBannerFiltersId,
             this.AntiBannerFilterGroupsId,
-            this.isProtectionRunning
+            this.isProtectionRunning,
+            this.rulesLimit
         );
         this.settings.render();
 
@@ -280,7 +283,8 @@ PageController.prototype = {
             { rulesInfo: this.contentBlockerInfo },
             this.contentBlockerInfo,
             this.environmentOptions,
-            this.userSettings
+            this.userSettings,
+            this.rulesLimit
         );
         this.antiBannerFilters.render();
 
@@ -289,7 +293,8 @@ PageController.prototype = {
             this.antiBannerFilters,
             this.userFilter,
             this.allowlistFilter,
-            this.userSettings
+            this.userSettings,
+            this.rulesLimit
         );
         this.contentBlockers.init();
 
