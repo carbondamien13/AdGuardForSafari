@@ -10,6 +10,8 @@ const ContentBlockersScreen = require('./content-blockers');
 const AntiBannerFilters = require('./filters/antibanner-filters/antibanner-filters');
 const Settings = require('./general-settings');
 
+const CONTENT_BLOCKERS_COUNT = 6;
+
 /**
  * Page controller
  *
@@ -146,6 +148,13 @@ PageController.prototype = {
         const enableExtensionsNotification = document.getElementById('enableExtensionsNotification');
         const enableCbExtensionsNotification = document.getElementById('enableCbExtensionsNotification');
         const updateIntervalNotification = document.getElementById('updateIntervalNotification');
+
+        const onboardingContentBlockersInfo = document.querySelector('.onboarding__tooltip__content_blockers_info');
+        onboardingContentBlockersInfo.innerHTML = i18n.__(
+            'onboarding_tooltip_adguard_safari_content_blockers_info.message',
+            this.rulesLimit,
+            this.rulesLimit * CONTENT_BLOCKERS_COUNT
+        );
 
         const self = this;
         ipcRenderer.on('getSafariExtensionsStateResponse', (e, arg) => {
