@@ -366,6 +366,7 @@ a.settings-actions--update-filters.loading:after {
 }
 .opts-list li .opt-name {
   font-weight: 500;
+  width: 81%;
 }
 .opts-list li:first-child {
   border-top: 0;
