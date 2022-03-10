@@ -366,7 +366,6 @@ a.settings-actions--update-filters.loading:after {
 }
 .opts-list li .opt-name {
   font-weight: 500;
-  width: 81%;
 }
 .opts-list li:first-child {
   border-top: 0;
@@ -383,6 +382,9 @@ a.settings-actions--update-filters.loading:after {
   left: -40px;
   top: -1px;
   z-index: -1;
+}
+.opts-list li .opts-desc-filter {
+  width: 81%;
 }
 #groupsList {
   margin-bottom: 50px;
