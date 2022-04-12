@@ -45,7 +45,7 @@ const initPage = function (response) {
                     controller.settings.updateAcceptableAdsCheckbox(options);
                     controller.contentBlockers.setLoading();
                     if (options.filterId === SELF_ADS_FILTER_ID) {
-                        // rerender only if self-ads filter enabled to synchronize it with general setting
+                        // rerender only if self-ads filter enabled/disabled to synchronize it with general setting
                         controller.antiBannerFilters.render();
                     }
                     break;
