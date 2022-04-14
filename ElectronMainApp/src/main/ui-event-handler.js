@@ -148,6 +148,11 @@ module.exports.init = function () {
                 settings.setUpdateRelaunch(true);
                 updater.quitAndInstall();
                 break;
+            case 'getFiltersData':
+                const filtersData = filterCategories.getFiltersMetadata();
+                filtersData.rulesInfo = antibanner.getContentBlockerInfo();
+                sendResponse(event, 'getFiltersDataResponse', filtersData);
+                break;
         }
     });
 };
