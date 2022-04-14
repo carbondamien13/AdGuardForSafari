@@ -325,6 +325,8 @@ const AntiBannerFilters = function (options, contentBlockerInfo, environmentOpti
         const { filters } = category;
         const isCustomFilters = category.groupId === 0;
 
+        const sortedFilters = filters.sort((filter) => (filter.enabled ? -1 : 1));
+
         if (isCustomFilters
             && filters.length === 0) {
             return utils.htmlToElement(getEmptyCustomFiltersTemplate(category));
@@ -333,10 +335,10 @@ const AntiBannerFilters = function (options, contentBlockerInfo, environmentOpti
         const pageTitleEl = getPageTitleTemplate(category.groupName);
 
         let filtersList = '';
-        for (let i = 0; i < filters.length; i += 1) {
+        for (let i = 0; i < sortedFilters.length; i += 1) {
             filtersList += getFilterTemplate(
-                filters[i],
-                loadedFiltersInfo.isEnabled(filters[i].filterId),
+                sortedFilters[i],
+                loadedFiltersInfo.isEnabled(sortedFilters[i].filterId),
                 isCustomFilters
             );
         }

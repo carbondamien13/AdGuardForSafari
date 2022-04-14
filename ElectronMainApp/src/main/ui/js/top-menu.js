@@ -1,3 +1,4 @@
+const { ipcRenderer } = require('electron');
 /**
  * Top menu
  *
@@ -84,6 +85,14 @@ const init = function (options) {
             e.preventDefault();
             document.location.hash = el.getAttribute('data-tab');
         });
+    });
+
+    const filtersTab = document.querySelector(`[data-tab="${ANTIBANNER}"]`);
+    // rerender filters to apply sorting
+    filtersTab.addEventListener('click', () => {
+        ipcRenderer.send('renderer-to-main', JSON.stringify({
+            'type': 'getFiltersMetadata',
+        }));
     });
 
     toggleTab();
