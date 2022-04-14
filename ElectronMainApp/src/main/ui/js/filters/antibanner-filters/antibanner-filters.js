@@ -422,7 +422,6 @@ const AntiBannerFilters = function (options, contentBlockerInfo, environmentOpti
         }
         document.querySelector('#antibanner').parentNode.appendChild(categoryContentElement);
         checkboxUtils.toggleCheckbox(document.querySelectorAll('.opt-state input[type=checkbox]'));
-        search.initFiltersSearch(category);
         if (category.groupId === CUSTOM_FILTERS_GROUP_ID) {
             bindCustomFiltersControls();
         }
@@ -443,7 +442,10 @@ const AntiBannerFilters = function (options, contentBlockerInfo, environmentOpti
         updateCategoryFiltersInfo(category.groupId);
 
         const categoryLink = categoryElement.querySelector('a.filter-group');
-        categoryLink.addEventListener('click', () => renderCategoryFilters(category));
+        categoryLink.addEventListener('click', () => {
+            renderCategoryFilters(category);
+            search.initFiltersSearch(category, renderCategoryFilters);
+        });
     }
 
     /**
