@@ -377,9 +377,7 @@ const AntiBannerFilters = function (options, contentBlockerInfo, environmentOpti
      * Updates filters info and render custom filters
      */
     function renderCustomFilters() {
-        ipcRenderer.once('getFiltersDataResponse', (e, response) => {
-            updateLoadedFiltersInfo(response);
-
+        ipcRenderer.once('getFiltersMetadataResponse', () => {
             const category = loadedFiltersInfo.categories.find((cat) => cat.groupId === CUSTOM_FILTERS_GROUP_ID);
             renderCategoryFilters(category);
             const tabId = document.location.hash;
@@ -390,9 +388,7 @@ const AntiBannerFilters = function (options, contentBlockerInfo, environmentOpti
             tab.style.display = 'flex';
         });
 
-        ipcRenderer.send('renderer-to-main', JSON.stringify({
-            'type': 'getFiltersData',
-        }));
+        updateFiltersMetadata();
     }
 
     /**
