@@ -75,7 +75,10 @@ function initFiltersSearch(category, renderCategoryFilters) {
     if (!searchInput) {
         return;
     }
-    const filters = document.querySelectorAll(`#antibanner${category.groupId} .opts-list li`);
+
+    const filtersContainer = document.querySelector(`#antibanner${category.groupId} .opts-list`);
+    const filters = filtersContainer.querySelectorAll('li');
+
     const SEARCH_DELAY_MS = 250;
 
     searchInput.addEventListener('input', utils.debounce((e) => {
@@ -115,6 +118,12 @@ function initFiltersSearch(category, renderCategoryFilters) {
                 filter.style.display = 'flex';
             }
         });
+
+        [...filters]
+            .sort((filter) => (filter.className === 'active' ? -1 : 1))
+            .forEach((node) => {
+                filtersContainer.appendChild(node);
+            });
     }, SEARCH_DELAY_MS));
 }
 
