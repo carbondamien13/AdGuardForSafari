@@ -15,9 +15,10 @@ const { CUSTOM_FILTERS_GROUP_ID } = config.get('AntiBannerFilterGroupsId');
  * Filters block
  *
  * @param options
- * @returns {{render: renderCategoriesAndFilters, updateRulesCountInfo: updateRulesCountInfo,
- * onFilterStateChanged: onFilterStateChanged, onFilterDownloadStarted: onFilterDownloadStarted,
- * onFilterDownloadFinished: onFilterDownloadFinished}}
+ * @returns {{init: init, updateData: updateFiltersMetadata, renderCustomFilters: renderCustomFilters,
+ * updateRulesCountInfo: updateRulesCountInfo, onFilterStateChanged: onFilterStateChanged,
+ * onFilterDownloadStarted: onFilterDownloadStarted, onFilterDownloadFinished: onFilterDownloadFinished,
+ * onFilterUpdatesFinished: onFilterUpdatesFinished, getFiltersInfo: getFiltersInfo}}
  * @constructor
  */
 /* eslint-disable-next-line no-unused-vars */
