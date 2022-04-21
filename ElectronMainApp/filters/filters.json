@@ -292,6 +292,14 @@
 		{
 			"tagId": 64,
 			"keyword": "lang:th"
+		},
+		{
+			"tagId": 65,
+			"keyword": "lang:sr"
+		},
+		{
+			"tagId": 66,
+			"keyword": "lang:hr"
 		}
 	],
 	"filters": [
@@ -306,8 +314,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://easylist.to/easylist/easylist.txt",
 			"trustLevel": "low",
-			"version": "2.0.85.84",
-			"timeUpdated": "2022-04-05T18:51:41+0700",
+			"version": "2.0.87.43",
+			"timeUpdated": "2022-04-21T19:32:25+0700",
 			"languages": [],
 			"tags": [
 				1
@@ -316,7 +324,7 @@
 		{
 			"filterId": 102,
 			"name": "ABPindo",
-			"description": "Indonesian supplement for EasyList.",
+			"description": "Additional filter list for websites in Indonesian.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://github.com/ABPindo/indonesianadblockrules",
 			"expires": 345600,
@@ -324,8 +332,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
 			"trustLevel": "high",
-			"version": "2.0.4.85",
-			"timeUpdated": "2022-04-05T18:51:44+0700",
+			"version": "2.0.4.98",
+			"timeUpdated": "2022-04-21T16:57:58+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -336,7 +344,7 @@
 		{
 			"filterId": 103,
 			"name": "Bulgarian list",
-			"description": "Bulgarian supplement for EasyList.",
+			"description": "Additional filter list for websites in Bulgarian.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://stanev.org/abp/",
 			"expires": 345600,
@@ -359,7 +367,7 @@
 		{
 			"filterId": 104,
 			"name": "EasyList China",
-			"description": "Chinese supplement for EasyList.",
+			"description": "Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "http://abpchina.org/forum/",
 			"expires": 345600,
@@ -367,8 +375,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
 			"trustLevel": "high",
-			"version": "2.1.4.63",
-			"timeUpdated": "2022-04-05T18:51:48+0700",
+			"version": "2.1.6.47",
+			"timeUpdated": "2022-04-21T19:32:38+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -379,7 +387,7 @@
 		{
 			"filterId": 105,
 			"name": "EasyList Czech and Slovak",
-			"description": "Czech and Slovak supplement for EasyList.",
+			"description": "Additional filter list for websites in Czech and Slovak.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://github.com/tomasko126/easylistczechandslovak",
 			"expires": 345600,
@@ -404,7 +412,7 @@
 		{
 			"filterId": 106,
 			"name": "EasyList Dutch",
-			"description": "Dutch supplement for EasyList. Already included in AdGuard Dutch filter.",
+			"description": "Additional filter list for websites in Dutch. Already included in AdGuard Dutch filter.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://easylist.to/",
 			"expires": 345600,
@@ -412,8 +420,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
 			"trustLevel": "low",
-			"version": "2.1.4.60",
-			"timeUpdated": "2022-04-05T18:51:51+0700",
+			"version": "2.1.6.44",
+			"timeUpdated": "2022-04-21T19:32:42+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -424,7 +432,7 @@
 		{
 			"filterId": 107,
 			"name": "EasyList Germany",
-			"description": "German supplement for EasyList. Already included in AdGuard German filter.",
+			"description": "Additional filter list for websites in German. Already included in AdGuard German filter.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://easylist.to/",
 			"expires": 345600,
@@ -432,8 +440,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist.to/easylistgermany/easylistgermany.txt",
 			"trustLevel": "low",
-			"version": "2.0.7.65",
-			"timeUpdated": "2022-04-05T18:51:52+0700",
+			"version": "2.0.7.82",
+			"timeUpdated": "2022-04-21T04:00:39+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -444,7 +452,7 @@
 		{
 			"filterId": 108,
 			"name": "EasyList Hebrew",
-			"description": "Hebrew supplement for EasyList.",
+			"description": "Additional filter list for websites in Hebrew.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://github.com/easylist/EasyListHebrew",
 			"expires": 345600,
@@ -467,7 +475,7 @@
 		{
 			"filterId": 109,
 			"name": "EasyList Italy",
-			"description": "Italian supplement for EasyList.",
+			"description": "Additional filter list for websites in Italian.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://easylist.to/",
 			"expires": 345600,
@@ -475,8 +483,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistitaly.txt",
 			"trustLevel": "high",
-			"version": "2.1.4.62",
-			"timeUpdated": "2022-04-05T18:51:57+0700",
+			"version": "2.1.6.46",
+			"timeUpdated": "2022-04-21T19:32:50+0700",
 			"languages": [
 				"it"
 			],
@@ -490,7 +498,7 @@
 		{
 			"filterId": 110,
 			"name": "EasyList Lithuania",
-			"description": "Lithuanian supplement for EasyList.",
+			"description": "Additional filter list for websites in Lithuanian.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://github.com/EasyList-Lithuania/easylist_lithuania",
 			"expires": 345600,
@@ -498,8 +506,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt",
 			"trustLevel": "high",
-			"version": "2.0.2.9",
-			"timeUpdated": "2022-04-05T18:51:57+0700",
+			"version": "2.0.2.13",
+			"timeUpdated": "2022-04-13T16:00:37+0700",
 			"languages": [
 				"lt"
 			],
@@ -513,7 +521,7 @@
 		{
 			"filterId": 111,
 			"name": "Latvian List",
-			"description": "Latvian supplement for EasyList.",
+			"description": "Additional filter list for websites in Latvian.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://notabug.org/latvian-list/adblock-latvian",
 			"expires": 345600,
@@ -522,7 +530,7 @@
 			"subscriptionUrl": "https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt",
 			"trustLevel": "high",
 			"version": "2.0.0.48",
-			"timeUpdated": "2022-04-05T18:52:01+0700",
+			"timeUpdated": "2022-04-04T20:00:32+0700",
 			"languages": [
 				"lv"
 			],
@@ -536,7 +544,7 @@
 		{
 			"filterId": 112,
 			"name": "Liste AR",
-			"description": "Arabic supplement for EasyList.",
+			"description": "Additional filter list for websites in Arabic.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://forums.lanik.us/viewforum.php?f=98",
 			"expires": 345600,
@@ -544,8 +552,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/Liste_AR.txt",
 			"trustLevel": "high",
-			"version": "2.1.4.61",
-			"timeUpdated": "2022-04-05T18:52:03+0700",
+			"version": "2.1.6.45",
+			"timeUpdated": "2022-04-21T19:32:58+0700",
 			"languages": [
 				"ar"
 			],
@@ -559,7 +567,7 @@
 		{
 			"filterId": 113,
 			"name": "Liste FR",
-			"description": "French supplement for EasyList. Already included in AdGuard French filter.",
+			"description": "Additional filter list for websites in French. Already included in AdGuard French filter.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://forums.lanik.us/viewforum.php?f=91",
 			"expires": 345600,
@@ -567,8 +575,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
 			"trustLevel": "low",
-			"version": "2.1.4.60",
-			"timeUpdated": "2022-04-05T18:52:08+0700",
+			"version": "2.1.6.44",
+			"timeUpdated": "2022-04-21T19:33:04+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -579,7 +587,7 @@
 		{
 			"filterId": 114,
 			"name": "ROList",
-			"description": "Romanian supplement for EasyList.",
+			"description": "Additional filter list for websites in Romanian.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://www.zoso.ro/rolist",
 			"expires": 345600,
@@ -587,8 +595,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://www.zoso.ro/pages/rolist.txt",
 			"trustLevel": "low",
-			"version": "2.0.0.91",
-			"timeUpdated": "2022-04-05T18:52:12+0700",
+			"version": "2.0.0.94",
+			"timeUpdated": "2022-04-20T00:00:34+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -607,8 +615,8 @@
 			"groupId": 2,
 			"subscriptionUrl": "https://easylist.to/easylist/easyprivacy.txt",
 			"trustLevel": "low",
-			"version": "2.0.88.38",
-			"timeUpdated": "2022-04-05T18:52:13+0700",
+			"version": "2.0.89.97",
+			"timeUpdated": "2022-04-21T19:33:11+0700",
 			"languages": [],
 			"tags": [
 				2
@@ -617,7 +625,7 @@
 		{
 			"filterId": 119,
 			"name": "Icelandic ABP List",
-			"description": "Icelandic supplement for EasyList.",
+			"description": "Additional filter list for websites in Icelandic.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://adblock.gardar.net/",
 			"expires": 345600,
@@ -637,7 +645,7 @@
 		{
 			"filterId": 120,
 			"name": "AdBlockID",
-			"description": "Indonesian supplement for EasyList and AdGuard Base filter.",
+			"description": "Additional filter list for websites in Indonesian.",
 			"timeAdded": "2019-10-18T14:59:54+0700",
 			"homepage": "https://github.com/realodix/AdBlockID",
 			"expires": 345600,
@@ -645,8 +653,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt",
 			"trustLevel": "high",
-			"version": "2.0.10.37",
-			"timeUpdated": "2022-04-05T18:52:16+0700",
+			"version": "2.0.10.54",
+			"timeUpdated": "2022-04-21T19:33:15+0700",
 			"languages": [
 				"id"
 			],
@@ -659,7 +667,7 @@
 		{
 			"filterId": 121,
 			"name": "Greek AdBlock Filter",
-			"description": "Greek supplement for EasyList.",
+			"description": "Additional filter list for websites in Greek.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://github.com/kargig/greek-adblockplus-filter",
 			"expires": 345600,
@@ -687,8 +695,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://easylist.to/easylist/fanboy-annoyance.txt",
 			"trustLevel": "low",
-			"version": "2.0.85.73",
-			"timeUpdated": "2022-04-05T18:52:23+0700",
+			"version": "2.0.87.33",
+			"timeUpdated": "2022-04-21T19:33:24+0700",
 			"languages": [],
 			"tags": [
 				5,
@@ -706,8 +714,8 @@
 			"groupId": 3,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
 			"trustLevel": "low",
-			"version": "2.0.85.75",
-			"timeUpdated": "2022-04-05T18:52:26+0700",
+			"version": "2.0.87.35",
+			"timeUpdated": "2022-04-21T19:33:29+0700",
 			"languages": [],
 			"tags": [
 				3,
@@ -725,8 +733,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt",
 			"trustLevel": "high",
-			"version": "1.0.8.57",
-			"timeUpdated": "2022-04-05T18:52:29+0700",
+			"version": "1.0.8.58",
+			"timeUpdated": "2022-04-09T00:00:54+0700",
 			"languages": [],
 			"tags": [
 				5
@@ -765,8 +773,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-adguard.txt",
 			"trustLevel": "high",
-			"version": "2.0.1.70",
-			"timeUpdated": "2022-04-05T18:52:32+0700",
+			"version": "2.0.1.71",
+			"timeUpdated": "2022-04-01T00:01:05+0700",
 			"languages": [
 				"hu"
 			],
@@ -788,8 +796,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext",
 			"trustLevel": "low",
-			"version": "2.0.9.48",
-			"timeUpdated": "2022-04-05T18:52:34+0700",
+			"version": "2.0.9.61",
+			"timeUpdated": "2022-04-15T20:00:58+0700",
 			"languages": [],
 			"tags": [
 				1
@@ -806,8 +814,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt",
 			"trustLevel": "low",
-			"version": "2.0.1.29",
-			"timeUpdated": "2022-04-05T18:52:35+0700",
+			"version": "2.0.1.32",
+			"timeUpdated": "2022-04-19T00:00:57+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -825,8 +833,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
 			"trustLevel": "low",
-			"version": "2.1.4.61",
-			"timeUpdated": "2022-04-05T18:52:37+0700",
+			"version": "2.1.6.45",
+			"timeUpdated": "2022-04-21T19:33:45+0700",
 			"languages": [],
 			"tags": [
 				50
@@ -843,8 +851,8 @@
 			"groupId": 5,
 			"subscriptionUrl": "https://curben.gitlab.io/malware-filter/urlhaus-filter-ag-online.txt",
 			"trustLevel": "low",
-			"version": "2.0.82.85",
-			"timeUpdated": "2022-04-05T18:52:39+0700",
+			"version": "2.0.83.44",
+			"timeUpdated": "2022-04-21T08:01:00+0700",
 			"languages": [],
 			"tags": [
 				4
@@ -861,8 +869,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/cntblock.txt",
 			"trustLevel": "low",
-			"version": "2.1.3.86",
-			"timeUpdated": "2022-04-05T18:52:41+0700",
+			"version": "2.1.5.70",
+			"timeUpdated": "2022-04-21T19:33:50+0700",
 			"languages": [],
 			"tags": [
 				2,
@@ -880,8 +888,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt",
 			"trustLevel": "high",
-			"version": "2.0.15.32",
-			"timeUpdated": "2022-04-05T18:52:42+0700",
+			"version": "2.0.15.89",
+			"timeUpdated": "2022-04-21T08:01:01+0700",
 			"languages": [
 				"vi"
 			],
@@ -912,7 +920,7 @@
 		{
 			"filterId": 216,
 			"name": "Official Polish filters for AdBlock, uBlock Origin & AdGuard",
-			"description": "Polish supplement for EasyList.",
+			"description": "Additional filter list for websites in Polish.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://github.com/MajkiIT/polish-ads-filter#polish-filters-for-adblock-ublock-origin--adguard",
 			"expires": 345600,
@@ -920,8 +928,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
 			"trustLevel": "high",
-			"version": "2.0.14.37",
-			"timeUpdated": "2022-04-05T18:52:46+0700",
+			"version": "2.0.14.41",
+			"timeUpdated": "2022-04-19T00:01:03+0700",
 			"languages": [
 				"pl"
 			],
@@ -942,8 +950,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt",
 			"trustLevel": "high",
-			"version": "2.0.4.76",
-			"timeUpdated": "2022-04-05T18:52:48+0700",
+			"version": "2.0.4.77",
+			"timeUpdated": "2022-04-04T08:01:04+0700",
 			"languages": [],
 			"tags": [
 				6,
@@ -962,7 +970,7 @@
 			"subscriptionUrl": "https://adblock.ee/list.php",
 			"trustLevel": "low",
 			"version": "2.0.3.46",
-			"timeUpdated": "2022-04-05T18:52:50+0700",
+			"timeUpdated": "2022-03-28T00:01:04+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -980,8 +988,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "http://sub.adtchrome.com/adt-chinalist-easylist.txt",
 			"trustLevel": "low",
-			"version": "2.0.22.11",
-			"timeUpdated": "2022-02-08T16:01:22+0700",
+			"version": "2.0.22.12",
+			"timeUpdated": "2022-04-20T16:01:19+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -1000,8 +1008,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
 			"trustLevel": "low",
-			"version": "2.0.4.63",
-			"timeUpdated": "2022-04-05T18:54:59+0700",
+			"version": "2.0.4.64",
+			"timeUpdated": "2022-04-13T20:01:17+0700",
 			"languages": [],
 			"tags": [
 				5,
@@ -1019,8 +1027,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt",
 			"trustLevel": "high",
-			"version": "2.0.4.49",
-			"timeUpdated": "2022-04-05T18:55:01+0700",
+			"version": "2.0.4.50",
+			"timeUpdated": "2022-04-04T08:01:14+0700",
 			"languages": [],
 			"tags": [
 				3,
@@ -1106,7 +1114,7 @@
 		{
 			"filterId": 227,
 			"name": "List-KR",
-			"description": "Filter that removes ads and various scripts from websites with Korean content. Based on Corset, Korean Adblock filter, Youslist. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.",
+			"description": "Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://list-kr.github.io/",
 			"expires": 345600,
@@ -1114,8 +1122,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/List-KR/List-KR/master/filter.txt",
 			"trustLevel": "high",
-			"version": "2.0.5.76",
-			"timeUpdated": "2022-04-05T18:55:06+0700",
+			"version": "2.0.6.64",
+			"timeUpdated": "2022-04-21T19:34:28+0700",
 			"languages": [
 				"ko"
 			],
@@ -1137,8 +1145,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
 			"trustLevel": "high",
-			"version": "2.0.1.51",
-			"timeUpdated": "2022-04-05T18:55:07+0700",
+			"version": "2.0.1.64",
+			"timeUpdated": "2022-04-18T20:01:30+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -1156,8 +1164,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://www.i-dont-care-about-cookies.eu/abp/",
 			"trustLevel": "low",
-			"version": "2.0.2.53",
-			"timeUpdated": "2022-04-05T18:55:10+0700",
+			"version": "2.0.2.67",
+			"timeUpdated": "2022-04-17T20:01:27+0700",
 			"languages": [],
 			"tags": [
 				6
@@ -1186,7 +1194,7 @@
 		{
 			"filterId": 231,
 			"name": "EasyList Spanish",
-			"description": "Spanish supplement for EasyList.",
+			"description": "Additional filter list for websites in Spanish.",
 			"timeAdded": "2014-06-30T14:56:55+0700",
 			"homepage": "https://hg.adblockplus.org/easylistspanish",
 			"expires": 345600,
@@ -1194,8 +1202,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistspanish.txt",
 			"trustLevel": "low",
-			"version": "2.1.4.62",
-			"timeUpdated": "2022-04-05T18:55:13+0700",
+			"version": "2.1.6.46",
+			"timeUpdated": "2022-04-21T19:34:39+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -1214,8 +1222,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/FiltersHeroes/KAD/master/KAD.txt",
 			"trustLevel": "low",
-			"version": "2.0.25.69",
-			"timeUpdated": "2022-04-05T18:55:16+0700",
+			"version": "2.0.26.92",
+			"timeUpdated": "2022-04-21T16:01:42+0700",
 			"languages": [],
 			"tags": [
 				4,
@@ -1233,8 +1241,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/theel0ja/finnish-easylist-addition/master/Finland_adb.txt",
 			"trustLevel": "high",
-			"version": "2.0.7.4",
-			"timeUpdated": "2022-04-05T18:55:18+0700",
+			"version": "2.0.7.39",
+			"timeUpdated": "2022-04-19T12:01:31+0700",
 			"languages": [
 				"fi"
 			],
@@ -1295,8 +1303,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt",
 			"trustLevel": "low",
-			"version": "2.0.1.10",
-			"timeUpdated": "2022-04-05T18:55:23+0700",
+			"version": "2.0.1.13",
+			"timeUpdated": "2022-04-09T16:01:34+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -1314,8 +1322,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt",
 			"trustLevel": "high",
-			"version": "1.0.23.12",
-			"timeUpdated": "2022-04-05T18:55:27+0700",
+			"version": "1.0.23.31",
+			"timeUpdated": "2022-04-17T04:01:47+0700",
 			"languages": [],
 			"tags": [
 				41,
@@ -1374,8 +1382,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://www.fanboy.co.nz/fanboy-cookiemonster.txt",
 			"trustLevel": "high",
-			"version": "2.0.89.95",
-			"timeUpdated": "2022-04-05T18:55:33+0700",
+			"version": "2.0.91.75",
+			"timeUpdated": "2022-04-21T19:35:08+0700",
 			"languages": [],
 			"tags": [
 				6
@@ -1402,7 +1410,7 @@
 		{
 			"filterId": 243,
 			"name": "Frellwit's Swedish Filter",
-			"description": "A filter for uBlock Origin that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.",
+			"description": "Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.",
 			"timeAdded": "2018-02-16T01:41:31+0700",
 			"homepage": "https://github.com/lassekongo83/Frellwit-s-filter-lists",
 			"expires": 345600,
@@ -1410,8 +1418,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt",
 			"trustLevel": "high",
-			"version": "2.0.12.99",
-			"timeUpdated": "2022-04-05T18:55:36+0700",
+			"version": "2.0.13.19",
+			"timeUpdated": "2022-04-21T16:01:55+0700",
 			"languages": [
 				"sv"
 			],
@@ -1435,8 +1443,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt",
 			"trustLevel": "high",
-			"version": "2.0.8.43",
-			"timeUpdated": "2022-04-05T18:55:38+0700",
+			"version": "2.0.8.58",
+			"timeUpdated": "2022-04-21T00:01:46+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -1465,7 +1473,7 @@
 		{
 			"filterId": 246,
 			"name": "EasyList Polish",
-			"description": "Polish supplement for EasyList.",
+			"description": "Additional filter list for websites in Polish.",
 			"timeAdded": "2018-03-26T15:35:42+0700",
 			"homepage": "https://easylist.to/",
 			"expires": 345600,
@@ -1473,8 +1481,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistpolish.txt",
 			"trustLevel": "low",
-			"version": "2.1.0.68",
-			"timeUpdated": "2022-04-05T18:55:42+0700",
+			"version": "2.1.2.52",
+			"timeUpdated": "2022-04-21T19:35:26+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -1493,8 +1501,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/PolishFiltersTeam/PolishAntiAnnoyingSpecialSupplement/master/polish_rss_filters.txt",
 			"trustLevel": "high",
-			"version": "2.0.2.80",
-			"timeUpdated": "2022-04-05T18:55:44+0700",
+			"version": "2.0.2.81",
+			"timeUpdated": "2022-04-10T08:01:41+0700",
 			"languages": [],
 			"tags": [
 				41,
@@ -1513,8 +1521,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuard.txt",
 			"trustLevel": "high",
-			"version": "2.0.6.12",
-			"timeUpdated": "2022-04-05T18:55:45+0700",
+			"version": "2.0.6.17",
+			"timeUpdated": "2022-04-17T04:01:58+0700",
 			"languages": [
 				"no",
 				"da",
@@ -1542,12 +1550,32 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList",
 			"trustLevel": "high",
-			"version": "2.0.4.27",
-			"timeUpdated": "2022-04-05T18:55:49+0700",
+			"version": "2.0.4.75",
+			"timeUpdated": "2022-04-20T20:01:55+0700",
 			"languages": [],
 			"tags": [
 				5,
 				11
+			]
+		},
+		{
+			"filterId": 252,
+			"name": "Dandelion Sprout's Serbo-Croatian List",
+			"description": "A filter list for websites in Serbian, Montenegrin, Croatian, and Bosnian.",
+			"timeAdded": "2022-03-21T15:42:14+0700",
+			"homepage": "https://github.com/DandelionSprout/adfilt",
+			"expires": 345600,
+			"displayNumber": 2,
+			"groupId": 7,
+			"subscriptionUrl": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SerboCroatianList.txt",
+			"trustLevel": "high",
+			"version": "2.0.0.2",
+			"timeUpdated": "2022-03-27T16:01:53+0700",
+			"languages": [],
+			"tags": [
+				1,
+				65,
+				66
 			]
 		},
 		{
@@ -1561,8 +1589,8 @@
 			"groupId": 6,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/10_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.1.63",
-			"timeUpdated": "2022-04-05T18:55:51+0700",
+			"version": "2.0.1.64",
+			"timeUpdated": "2022-04-15T08:01:49+0700",
 			"languages": [],
 			"tags": []
 		},
@@ -1577,8 +1605,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/11_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.27.85",
-			"timeUpdated": "2022-04-05T18:55:59+0700",
+			"version": "2.0.28.84",
+			"timeUpdated": "2022-04-21T15:30:19+0700",
 			"languages": [],
 			"tags": [
 				1,
@@ -1599,8 +1627,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/13_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.33.2",
-			"timeUpdated": "2022-04-05T18:56:11+0700",
+			"version": "2.0.33.59",
+			"timeUpdated": "2022-04-21T19:36:15+0700",
 			"languages": [
 				"tr"
 			],
@@ -1622,8 +1650,8 @@
 			"groupId": 4,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/14_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.1.12.83",
-			"timeUpdated": "2022-04-05T18:56:30+0700",
+			"version": "2.1.16.60",
+			"timeUpdated": "2022-04-21T19:36:41+0700",
 			"languages": [],
 			"tags": [
 				5,
@@ -1642,8 +1670,8 @@
 			"groupId": 6,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/15_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.31.79",
-			"timeUpdated": "2022-04-05T18:56:32+0700",
+			"version": "2.0.33.6",
+			"timeUpdated": "2022-04-21T19:36:45+0700",
 			"languages": [],
 			"tags": [
 				45,
@@ -1671,8 +1699,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/16_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.32.25",
-			"timeUpdated": "2022-04-05T18:56:43+0700",
+			"version": "2.0.32.78",
+			"timeUpdated": "2022-04-21T03:30:40+0700",
 			"languages": [
 				"fr"
 			],
@@ -1695,8 +1723,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/1_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.66.27",
-			"timeUpdated": "2022-04-05T18:56:57+0700",
+			"version": "2.0.67.65",
+			"timeUpdated": "2022-04-21T13:30:50+0700",
 			"languages": [
 				"ru"
 			],
@@ -1718,8 +1746,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/224_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.51.17",
-			"timeUpdated": "2022-04-05T18:57:10+0700",
+			"version": "2.0.53.41",
+			"timeUpdated": "2022-04-21T19:37:43+0700",
 			"languages": [
 				"zh"
 			],
@@ -1741,8 +1769,8 @@
 			"groupId": 1,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/2_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.2.22.27",
-			"timeUpdated": "2022-04-05T18:57:35+0700",
+			"version": "2.2.27.13",
+			"timeUpdated": "2022-04-21T19:38:21+0700",
 			"languages": [],
 			"tags": [
 				10,
@@ -1762,8 +1790,8 @@
 			"groupId": 2,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/3_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.36.94",
-			"timeUpdated": "2022-04-05T18:57:46+0700",
+			"version": "2.0.38.56",
+			"timeUpdated": "2022-04-21T19:38:39+0700",
 			"languages": [],
 			"tags": [
 				2,
@@ -1781,8 +1809,8 @@
 			"groupId": 3,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/4_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.58.7",
-			"timeUpdated": "2022-04-05T18:57:54+0700",
+			"version": "2.0.60.16",
+			"timeUpdated": "2022-04-21T17:31:30+0700",
 			"languages": [],
 			"tags": [
 				3,
@@ -1818,8 +1846,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/6_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.25.77",
-			"timeUpdated": "2022-04-05T18:58:20+0700",
+			"version": "2.0.26.30",
+			"timeUpdated": "2022-04-21T15:31:40+0700",
 			"languages": [
 				"de"
 			],
@@ -1841,8 +1869,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/7_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.17.23",
-			"timeUpdated": "2022-04-05T18:58:28+0700",
+			"version": "2.0.18.73",
+			"timeUpdated": "2022-04-21T19:39:46+0700",
 			"languages": [
 				"ja"
 			],
@@ -1863,8 +1891,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/8_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.3.53",
-			"timeUpdated": "2022-04-05T18:58:37+0700",
+			"version": "2.0.3.70",
+			"timeUpdated": "2022-04-20T02:31:42+0700",
 			"languages": [
 				"nl"
 			],
@@ -1887,8 +1915,8 @@
 			"groupId": 7,
 			"subscriptionUrl": "https://filters.adtidy.org/extension/safari/filters/9_optimized.txt",
 			"trustLevel": "full",
-			"version": "2.0.12.95",
-			"timeUpdated": "2022-04-05T18:58:45+0700",
+			"version": "2.0.13.36",
+			"timeUpdated": "2022-04-21T19:40:13+0700",
 			"languages": [
 				"es",
 				"pt"

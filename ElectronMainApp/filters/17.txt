@@ -1,8 +1,8 @@
-! Checksum: Dd73PNexBRLqM1X4BnDJsA
+! Checksum: zbGyV/BFDhoPTqfDorwyMw
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.2.24
-! TimeUpdated: 2022-04-05T18:56:46+07:00
+! Version: 2.0.2.48
+! TimeUpdated: 2022-04-20T20:02:26+07:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -38,9 +38,21 @@ $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
 $removeparam=fbclid
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2597385
+$removeparam=_clde
+$removeparam=_cldee
+! URL Campaign Mapper
+! https://documentation.mapp.com/latest/en/url-campaign-mapper-19109338.html
+$removeparam=wt_mc
+! https://github.com/AdguardTeam/AdguardFilters/issues/100448
+! https://github.com/AdguardTeam/AdguardFilters/issues/115746
+$removeparam=oprtrack
 ! Campaign link tracking
 ! https://developers.atinternet-solutions.com/as2-tagging-en/javascript-en/campaigns-javascript-en/marketing-campaigns-javascript-en/#direct-method_5
 $removeparam=xtor
+! Microsoft Click ID
+! https://help.ads.microsoft.com/apex/index/3/en/60000
+$removeparam=msclkid
 ! UTM
 $removeparam=utm_campaign
 $removeparam=utm_channel
@@ -59,6 +71,7 @@ $removeparam=utm_social-type
 $removeparam=utm_source
 $removeparam=utm_swu
 $removeparam=utm_term
+$removeparam=utm_keyword
 $removeparam=utm_userid
 $removeparam=utm_viz_id
 $removeparam=utm_product
@@ -138,6 +151,19 @@ $removeparam=fbclid
 ! Good: ||example.org^$removeparam=cx
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115977
+||rapidgator.net^$removeparam=Referer
+! https://developer.atlassian.com/developer-guide/client-identification/
+||atlassian.net^$removeparam=atlOrigin
+! https://www.so-net.ne.jp/access/hikari/minico/ad/?SmRcid=snt_snt_top_gate
+||so-net.ne.jp^$removeparam=SmRcid
+! https://github.com/AdguardTeam/AdguardFilters/issues/113231#issuecomment-1091899519
+||ameblo.jp^$removeparam=frm_id
+! popin.cc widgets
+||popin.cc/popin_discovery/$script,removeparam=info
+||popin.cc/popin_discovery/$script,removeparam=uid
+! cancanlah.com
+||cancanlah.com^$removeparam=click_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114505
 ||api.cxense.com/public/widget/data?json=$script,removeparam=usi
 ||api.cxense.com/public/widget/data?json=$script,removeparam=widgetId
@@ -339,8 +365,6 @@ $removeparam=aid,domain=adguard-vpn.com|adguard-dns.com|adguard.com
 ||web.vstat.info$removeparam=user_agent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101590
 ||start.pm.by^$removeparam=adtag
-! https://github.com/AdguardTeam/AdguardFilters/issues/100448
-||mail.ru^$removeparam=oprtrack
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100613
 ||redhotpawn.com^$removeparam=cbqsid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94662
@@ -466,6 +490,7 @@ $removeparam=a_aid,domain=expressvpn.com|vpnarea.com
 ! kohls.com - counter
 ||kohls.com^$removeparam=CID
 ! instagram.com - share tracking
+||instagram.com^$removeparam=ig_rid
 ||instagram.com^$removeparam=igshid
 ! euronews.com - email subscription tracking
 ||euronews.com^$removeparam=_ope
@@ -613,6 +638,11 @@ $removeparam=/^curator_clanid/,domain=steampowered.com|steamcommunity.com
 ||mp.weixin.qq.com^$removeparam=scene
 ||mp.weixin.qq.com^$removeparam=srcid
 ||mp.weixin.qq.com^$removeparam=nettype
+||mp.weixin.qq.com^$removeparam=WBAPIAnalysisOriUICodes
+||mp.weixin.qq.com^$removeparam=v_p
+||mp.weixin.qq.com^$removeparam=launchid
+||mp.weixin.qq.com^$removeparam=from
+||mp.weixin.qq.com^$removeparam=aid
 ! Prevent tracking when request is unblocked
 ||pixel.adsafeprotected.com/services/pub?$removeparam=slot
 ||pixel.adsafeprotected.com/services/pub?$removeparam=sessionId
@@ -736,6 +766,19 @@ $removeparam=dclid
 ! Weibo
 ||weibo.*^$removeparam=weibo_id
 ||weibo.*^$removeparam=dt_dapp
+! Iqiyi
+||iqiyi.com^$removeparam=vfrm
+||iqiyi.com^$removeparam=vfrmblk
+||iqiyi.com^$removeparam=vfrmrst
+! Sohu
+||sohu.com^$removeparam=_f
+||sohu.com^$removeparam=_trans_
+||sohu.com^$removeparam=scm
+||sohu.com^$removeparam=spm
+! Youku
+||v.youku.com^$removeparam=ptag
+||v.youku.com^$removeparam=scm
+||v.youku.com^$removeparam=spm
 !
 !---------------------------------------------------------------------------!
 !-------------- Whitelist ------------------------------------------------------!

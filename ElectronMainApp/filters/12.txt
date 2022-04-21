@@ -1,8 +1,8 @@
-! Checksum: sEGD6CUAjiRDIInIcJqESA
+! Checksum: 55MHc2TDNbq3IxWNonSsmg
 ! Title: AdGuard Safari filter
 ! Description: Special filter for Safari 9+ on iOS and Mac OS. We need a separate filter for Safari browser because it does not fully support our rules syntax. Already included in AdGuard Base filter.
-! Version: 2.0.1.88
-! TimeUpdated: 2022-03-09T02:38:13+07:00
+! Version: 2.0.1.89
+! TimeUpdated: 2022-04-18T21:30:20+07:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -414,8 +414,6 @@ televisaofutebol.com#@#iframe[width="300"][height="250"]
 @@||mackie100projects.altervista.org^$generichide
 ! https://forum.adguard.com/index.php?threads/13867/
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=freewarefiles.com
-! https://forum.adguard.com/index.php?threads/13921/
-@@||cdn.popcash.net/pop.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3018
 @@||usapoliticstoday.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2995

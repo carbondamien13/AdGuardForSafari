@@ -1,8 +1,8 @@
-! Checksum: nb6KRxPam9gXACDOti1EsA
+! Checksum: uy47t9HSVXLub4XXEUsUhA
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.2.24
-! TimeUpdated: 2022-04-05T18:56:46+07:00
+! Version: 2.0.2.48
+! TimeUpdated: 2022-04-20T20:02:26+07:00
 ! Expires: 4 days (update frequency)
 $removeparam=adfrom
 $removeparam=nx_source
@@ -22,7 +22,12 @@ $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
 $removeparam=fbclid
+$removeparam=_clde
+$removeparam=_cldee
+$removeparam=wt_mc
+$removeparam=oprtrack
 $removeparam=xtor
+$removeparam=msclkid
 $removeparam=utm_campaign
 $removeparam=utm_channel
 $removeparam=utm_cid
@@ -40,6 +45,7 @@ $removeparam=utm_social-type
 $removeparam=utm_source
 $removeparam=utm_swu
 $removeparam=utm_term
+$removeparam=utm_keyword
 $removeparam=utm_userid
 $removeparam=utm_viz_id
 $removeparam=utm_product
@@ -93,6 +99,13 @@ $removeparam=oly_enc_id
 $removeparam=ebisAdID
 $removeparam=irgwc
 $removeparam=fbclid
+||rapidgator.net^$removeparam=Referer
+||atlassian.net^$removeparam=atlOrigin
+||so-net.ne.jp^$removeparam=SmRcid
+||ameblo.jp^$removeparam=frm_id
+||popin.cc/popin_discovery/$script,removeparam=info
+||popin.cc/popin_discovery/$script,removeparam=uid
+||cancanlah.com^$removeparam=click_id
 ||api.cxense.com/public/widget/data?json=$script,removeparam=usi
 ||api.cxense.com/public/widget/data?json=$script,removeparam=widgetId
 ||lp.sophos.com^$removeparam=elqTrackId
@@ -225,7 +238,6 @@ $removeparam=aid,domain=adguard-vpn.com|adguard-dns.com|adguard.com
 ||web.vstat.info$removeparam=guid
 ||web.vstat.info$removeparam=user_agent
 ||start.pm.by^$removeparam=adtag
-||mail.ru^$removeparam=oprtrack
 ||redhotpawn.com^$removeparam=cbqsid
 ||reddit.com^$removeparam=correlation_id
 ||reddit.com^$removeparam=ref_campaign
@@ -312,6 +324,7 @@ $removeparam=a_aid,domain=expressvpn.com|vpnarea.com
 ||wired.co.uk^$removeparam=mbid
 ||wikihow.com^$removeparam=?utm_source
 ||kohls.com^$removeparam=CID
+||instagram.com^$removeparam=ig_rid
 ||instagram.com^$removeparam=igshid
 ||euronews.com^$removeparam=_ope
 $removeparam=/^curator_clanid/,domain=steampowered.com|steamcommunity.com
@@ -417,6 +430,11 @@ $removeparam=/^curator_clanid/,domain=steampowered.com|steamcommunity.com
 ||mp.weixin.qq.com^$removeparam=scene
 ||mp.weixin.qq.com^$removeparam=srcid
 ||mp.weixin.qq.com^$removeparam=nettype
+||mp.weixin.qq.com^$removeparam=WBAPIAnalysisOriUICodes
+||mp.weixin.qq.com^$removeparam=v_p
+||mp.weixin.qq.com^$removeparam=launchid
+||mp.weixin.qq.com^$removeparam=from
+||mp.weixin.qq.com^$removeparam=aid
 ||pixel.adsafeprotected.com/services/pub?$removeparam=slot
 ||pixel.adsafeprotected.com/services/pub?$removeparam=sessionId
 ||pixel.adsafeprotected.com/services/pub?$removeparam=anId
@@ -517,6 +535,16 @@ $removeparam=dclid
 ||search.bilibili.com^$removeparam=from_source
 ||weibo.*^$removeparam=weibo_id
 ||weibo.*^$removeparam=dt_dapp
+||iqiyi.com^$removeparam=vfrm
+||iqiyi.com^$removeparam=vfrmblk
+||iqiyi.com^$removeparam=vfrmrst
+||sohu.com^$removeparam=_f
+||sohu.com^$removeparam=_trans_
+||sohu.com^$removeparam=scm
+||sohu.com^$removeparam=spm
+||v.youku.com^$removeparam=ptag
+||v.youku.com^$removeparam=scm
+||v.youku.com^$removeparam=spm
 @@||data.amazon.*/api/marketplaces/*/cart/carts/retail/items$removeparam=ref
 @@||tix.axs.com^$removeparam
 @@/mediaserver/*$removeparam,domain=ramtrucks.com|chrysler.com|fiatusa.com|alfaromeousa.com|jeep.com|dodge.com

@@ -1,8 +1,8 @@
-! Checksum: vBH4jZHW0MLSnntLHyg1DQ
+! Checksum: pCzeI6NSrTef7nu7rXOdcg
 ! Title: Filter unblocking search ads and self-promotion
 ! Description: Filter that unblocks search (Duckduckgo, Google, Bing, Yahoo) and self-promo ads. Self-promotion definition: when an ad on a website is promoting this very website or other websites/social media/etc closely related to it, such ad is considered a self-promoting one.
-! Version: 2.0.1.63
-! TimeUpdated: 2022-04-05T18:55:51+07:00
+! Version: 2.0.1.64
+! TimeUpdated: 2022-04-15T08:01:49+07:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -312,6 +312,10 @@ suchmaschine.com#@##ypa-top-wrap > iframe[src^="http://partnerads.ysm.yahoo.com/
 ! Qwant search
 qwant.com#@?#.results-container > div.result:has(> div.url > span.info:contains(Annonce))
 lite.qwant.com#@?#.content > article.result:has(> p > span.ad)
+! Oscobo.com Search
+oscobo.com#@?##results-list > .result:has(> a > .cite > .ba)
+! Swisscows.com Search
+swisscows.com#@#.web-results > .a11t
 ! comss.ru
 comss.ru#@##main > .flat td[style*="180px"] > .block
 comss.ru#@##main > .flat td[style*="260px"] > .av:nth-child(2)
