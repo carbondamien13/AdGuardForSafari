@@ -111,7 +111,7 @@
         "message": "O AdGuard for Safari é um software gratuito e de código aberto. Agradecemos os seus comentários e contribuições. Se quiser comunicar um erro ou solicitar um recurso, vá até <a target='_blank' href='https://adguard.com/forward.html?action=github&from=options_screen&app=safari_extension' class='link'>our GitHub repo</a>."
     },
     "options_allow_acceptable_ads": {
-        "message": "Permitir anúncios de pesquisa e auto-promoção de sites"
+        "message": "Permitir anúncios de pesquisa e auto-promoção de sítios"
     },
     "options_export_settings": {
         "message": "Exportar definições"
@@ -225,7 +225,7 @@
         "message": "Versão:"
     },
     "options_filters_custom_step_final_filter_rules_count": {
-        "message": "Contagem de Regras:"
+        "message": "Contagem de regras:"
     },
     "options_filters_custom_step_final_filter_homepage": {
         "message": "Página Principal"
@@ -266,11 +266,14 @@
     "options_userfilter": {
         "message": "Regras do utilizador"
     },
-    "options_userfilter_info_multi": {
-        "message": "Regras do utilizador: %s"
-    },
     "options_userfilter_no_user_rules": {
         "message": "Lsta está vazia"
+    },
+    "options_userfilter_info_single": {
+        "message": "%s regra do utilizador"
+    },
+    "options_userfilter_info_multi": {
+        "message": "%s regras do utilizador"
     },
     "options_userfilter_description": {
         "message": "Pode adicionar as suas próprias regras ao &nbsp;este filtro. Esta opção é &nbsp;recomendada para utilizadores avançados familiarizados com HTML/CSS. Leia o <a class='spl-user-descr-link'href='https://adguard.com/forward.html?action=filterrules&from=options_screen&app=safari_extension' target='_blank'> tutorial de regras de filtro </a > para &nbsp;aprender como &nbsp; escrever as suas próprias regras de filtro."
@@ -408,7 +411,7 @@
         "message": "Como eles comparam"
     },
     "options_compare_title": {
-        "message": "Experimente AdGuard Premium para uma melhor protecção!"
+        "message": "Experimente AdGuard Premium para uma melhor proteção!"
     },
     "options_license_agreement": {
         "message": "Contrato de Licença de Utilizador Final"
@@ -435,7 +438,7 @@
         "message": "Ícone do Safari do AdGuard"
     },
     "onboarding_tooltip_adguard_safari_icon_info": {
-        "message": "Pode usar este ícone para gerir as definições do AdGuard para o Safari. Por exemplo, pause o bloqueio num site ou bloqueie um anúncio manualmente."
+        "message": "Pode usar este ícone para gerir as definições do AdGuard para o Safari. Por exemplo, pause o bloqueio num sítio ou bloqueie um anúncio manualmente."
     },
     "onboarding_tooltip_adguard_safari_icon_web_page_content": {
         "message": "O acesso ao conteúdo da página da Web é necessário para que a 'ferramenta de bloqueio manual' funcione."
@@ -522,7 +525,7 @@
         "message": "Ocorreu um erro durante a importação das definições"
     },
     "settings_notification_protection_title": {
-        "message": "Protecção foi pausada"
+        "message": "Proteção foi pausada"
     },
     "settings_notification_protection_button_text": {
         "message": "Resumo"
@@ -543,7 +546,7 @@
         "message": "Deve ativar todas as extensões do bloqueio de conteúdo do AdGuard para o correto bloqueio de anúncios no Safari"
     },
     "settings_notification_update_interval": {
-        "message": "Observe que os filtros desatualizados diminuem a qualidade da protecção, por isso é importante mantê-los atualizados."
+        "message": "Observe que os filtros desatualizados diminuem a qualidade da proteção, por isso é importante mantê-los atualizados."
     },
     "options_cb_general_title": {
         "message": "AdGuard Geral"

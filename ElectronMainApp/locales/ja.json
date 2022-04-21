@@ -254,6 +254,9 @@
     "options_allowlist_inverted": {
         "message": " (逆転中)"
     },
+    "options_allowlist_info_multi": {
+        "message": "ドメイン数: %s"
+    },
     "options_allowlist_no_domains": {
         "message": "ホワイトリストは空です"
     },

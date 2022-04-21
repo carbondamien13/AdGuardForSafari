@@ -255,7 +255,7 @@
         "message": "Korisnička pravila"
     },
     "options_userfilter_info_multi": {
-        "message": "Korisnička pravila: %s"
+        "message": "%s korisnička pravila"
     },
     "options_userfilter_description": {
         "message": "Ovde možete dodati vaša pravila. Ova opcija je&nbsp;preporučljiva za napredne korisnike koji su upoznati sa HTML/CSS. pročitajte <a class='spl-user-descr-link' href='https://adguard.com/forward.html?action=filterrules&from=options_screen&app=safari_extension' target='_blank'>Uputstva za pravila</a> to&nbsp;saznajte kako da&nbsp;napišete vaša pravila za filtriranje."
@@ -427,6 +427,9 @@
     },
     "onboarding_tooltip_adguard_advanced_blocking": {
         "message": "AdGuard napredno blokiranje"
+    },
+    "onboarding_tooltip_adguard_advanced_blocking_info": {
+        "message": "Ovo proširenje primenjuje napredna pravila blokiranja koja nisu podržana od Safarijevog API za blokiranje sadržaja."
     },
     "onboarding_safari_btn": {
         "message": "Otvori postavke"
