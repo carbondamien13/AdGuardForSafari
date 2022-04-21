@@ -333,10 +333,10 @@
         "message": "Aviso"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "Muitos filtros ativados. O Safari não pode usar mais de 50.000 regras num grupo."
+        "message": "Muitos filtros ativados. O Safari não pode usar mais de %s regras num grupo."
     },
     "options_content_blocker_overlimit": {
-        "message": "Muitos filtros ativados. O Safari não pode usar mais de 50.000 regras num grupo."
+        "message": "Muitos filtros ativados. O Safari não pode usar mais de %s regras num grupo."
     },
     "options_filters_list_search_placeholder": {
         "message": "Pesquisar"
@@ -402,7 +402,7 @@
         "message": "Bloqueadores de conteúdo"
     },
     "options_content_blockers_desc": {
-        "message": "Bloqueadores de anúncios ativados:%s de 6 (cada um pode conter até 50 000 regras)"
+        "message": "Bloqueadores de anúncios ativados:%s de 6 (cada um pode conter até %s regras)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "Os bloqueadores de anúncios estão desativados"
@@ -462,7 +462,7 @@
         "message": "6 extensões de bloqueio de conteúdo"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "O Safari limita o número máximo de regras de bloqueio de conteúdo com 50.000 por extensão. Isso não é suficiente para lidar com todos os tipos de anúncios e rastreadores que o AdGuard bloqueia. É por isso que fornecemos 6 extensões, aumentando assim esse limite para 300.000."
+        "message": "O Safari limita o número máximo de regras de bloqueio de conteúdo com %s por extensão. Isso não é suficiente para lidar com todos os tipos de anúncios e rastreadores que o AdGuard bloqueia. É por isso que fornecemos 6 extensões, aumentando assim esse limite para %s."
     },
     "onboarding_safari_btn": {
         "message": "Abrir preferências"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "O limite de 50.000 regras foi excedido. Desative as regras desnecessárias para que a aplicação funcione corretamente.<br/>Regras ativadas no momento:%s (regras desativadas: $2)"
+        "message": "O limite de %s regras foi excedido. Desative as regras desnecessárias para que a aplicação funcione corretamente.<br/>Regras ativadas no momento:%s (regras desativadas: $2)"
     },
     "options_cb_disabled_warning": {
         "message": "Desativado no Safari"

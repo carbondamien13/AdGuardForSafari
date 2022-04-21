@@ -333,10 +333,10 @@
         "message": "Atenție"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "Prea multe filtre activate. Safari nu poate utiliza mai mult de 50.000 de reguli pe grup."
+        "message": "Prea multe filtre activate. Safari nu poate utiliza mai mult de %s de reguli pe grup."
     },
     "options_content_blocker_overlimit": {
-        "message": "Prea multe filtre activate. Safari nu poate utiliza mai mult de 50.000 de reguli pe grup."
+        "message": "Prea multe filtre activate. Safari nu poate utiliza mai mult de %s de reguli pe grup."
     },
     "options_filters_list_search_placeholder": {
         "message": "Căutați"
@@ -402,7 +402,7 @@
         "message": "Blocante de conținut"
     },
     "options_content_blockers_desc": {
-        "message": "Blocante de reclame activate: %s din 6 (pot conține fiecare până la 50.000 de reguli)"
+        "message": "Blocante de reclame activate: %s din 6 (pot conține fiecare până la %s de reguli)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "Blocanții de reclame sunt dezactivați"
@@ -462,7 +462,7 @@
         "message": "6 extensii de blocare a conținutului"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari limitează numărul de reguli de blocare a conținutului la 50.000 pe extensie, ceea ce nu este suficient pentru a gestiona toate tipurile de anunțuri și trackere blocate de AdGuard. De aceea, oferim 6 extensii, mărind astfel limita la 300.000."
+        "message": "Safari limitează numărul de reguli de blocare a conținutului la %s pe extensie, ceea ce nu este suficient pentru a gestiona toate tipurile de anunțuri și trackere blocate de AdGuard. De aceea, oferim 6 extensii, mărind astfel limita la %s."
     },
     "onboarding_safari_btn": {
         "message": "Deschide preferințele"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "Limita de 50.000 de reguli a fost depășită. Dezactivați regulile inutile pentru ca aplicația să funcționeze corect.<br/>În prezent, regulile activate: %s (reguli dezactivate: $2)"
+        "message": "Limita de %s de reguli a fost depășită. Dezactivați regulile inutile pentru ca aplicația să funcționeze corect.<br/>În prezent, regulile activate: %s (reguli dezactivate: $2)"
     },
     "options_cb_disabled_warning": {
         "message": "Dezactivat în Safari"

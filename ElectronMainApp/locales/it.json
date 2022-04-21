@@ -333,10 +333,10 @@
         "message": "Attenzione"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "Troppi filtri attivi. Safari non può utilizzare più di 50.000 regole in un gruppo."
+        "message": "Troppi filtri attivi. Safari non può utilizzare più di %s regole in un gruppo."
     },
     "options_content_blocker_overlimit": {
-        "message": "Troppi filtri attivi. Safari non può utilizzare più di 50.000 regole in un gruppo."
+        "message": "Troppi filtri attivi. Safari non può utilizzare più di %s regole in un gruppo."
     },
     "options_filters_list_search_placeholder": {
         "message": "Ricerca"
@@ -402,7 +402,7 @@
         "message": "Blocchi di contenuti"
     },
     "options_content_blockers_desc": {
-        "message": "Blocchi annunci attivi: %s su 6 (ciascuna può contenere fino a 50.000 regole)"
+        "message": "Blocchi annunci attivi: %s su 6 (ciascuna può contenere fino a %s regole)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "I blocchi degli annunci sono disattivati"
@@ -462,7 +462,7 @@
         "message": "6 estensioni di blocco contenuti"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari limita il numero massimo di regole di blocco dei contenuti a 50.000 per estensione. Questo non è sufficiente per gestire tutti i tipi di blocchi AdGuard di annunci e tracciatori. Ecco perché forniamo 6 estensioni, portando così il limite a 300.000."
+        "message": "Safari limita il numero massimo di regole di blocco dei contenuti a %s per estensione. Questo non è sufficiente per gestire tutti i tipi di blocchi AdGuard di annunci e tracciatori. Ecco perché forniamo 6 estensioni, portando così il limite a %s."
     },
     "onboarding_safari_btn": {
         "message": "Apri preferenze"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "Il limite di 50.000 regole attive è stato superato. Ti suggeriamo di disattivare le regole non necessarie per un corretto funzionamento dell'applicazione.<br/>Regole attive al momento: %s (regole disattivate: $2)"
+        "message": "Il limite di %s regole attive è stato superato. Ti suggeriamo di disattivare le regole non necessarie per un corretto funzionamento dell'applicazione.<br/>Regole attive al momento: %s (regole disattivate: $2)"
     },
     "options_cb_disabled_warning": {
         "message": "Disattivato nel Safari"

@@ -333,10 +333,10 @@
         "message": "Uyarı"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "Çok fazla filtre seçildi. Safari 50000'den fazla kural kullanamaz."
+        "message": "Çok fazla filtre seçildi. Safari %s'den fazla kural kullanamaz."
     },
     "options_content_blocker_overlimit": {
-        "message": "Çok fazla filtre seçildi. Safari 50000'den fazla kural kullanamaz."
+        "message": "Çok fazla filtre seçildi. Safari %s'den fazla kural kullanamaz."
     },
     "options_filters_list_search_placeholder": {
         "message": "Ara"
@@ -402,7 +402,7 @@
         "message": "İçerik engelleyicileri"
     },
     "options_content_blockers_desc": {
-        "message": "Etkin reklam engelleyiciler: 6 üzerinden %s (her biri en fazla 50.000 kural içerebilir)"
+        "message": "Etkin reklam engelleyiciler: 6 üzerinden %s (her biri en fazla %s kural içerebilir)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "Reklam engelleyicileri devre dışıdır"
@@ -462,7 +462,7 @@
         "message": "6 içerik engelleme eklentisi"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari, eklenti başına 50.000 ile maksimum içerik engelleme kuralı sayısını sınırlar. Bu, her tür reklamı ve izleyiciyi AdGuard engellemelerini işlemek için yeterli değildir. Bu yüzden 6 eklenti sağlıyoruz, böylece bu sınırı 300.000'e çıkarıyoruz."
+        "message": "Safari, eklenti başına %s ile maksimum içerik engelleme kuralı sayısını sınırlar. Bu, her tür reklamı ve izleyiciyi AdGuard engellemelerini işlemek için yeterli değildir. Bu yüzden 6 eklenti sağlıyoruz, böylece bu sınırı %s'e çıkarıyoruz."
     },
     "onboarding_safari_btn": {
         "message": "Tercihleri aç"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "50,000 adet kural sınırı aşıldı. Uygulamanın düzgün çalışması için gereksiz kuralları lütfen devre dışı bırakın.<br/>Şu anda etkinleştirilen kurallar: %s (devre dışı bırakılan kurallar: $2)"
+        "message": "%s adet kural sınırı aşıldı. Uygulamanın düzgün çalışması için gereksiz kuralları lütfen devre dışı bırakın.<br/>Şu anda etkinleştirilen kurallar: %s (devre dışı bırakılan kurallar: $2)"
     },
     "options_cb_disabled_warning": {
         "message": "Safari'de devre dışı"

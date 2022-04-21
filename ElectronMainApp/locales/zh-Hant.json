@@ -330,10 +330,10 @@
         "message": "警告"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "太多已啟用的過濾器。Safari 無法在一個群組中使用超過 50,000 項規則。"
+        "message": "太多已啟用的過濾器。Safari 無法在一個群組中使用超過 %s 項規則。"
     },
     "options_content_blocker_overlimit": {
-        "message": "太多已啟用的過濾器。Safari 無法在一個群組中使用超過 50,000 項規則。"
+        "message": "太多已啟用的過濾器。Safari 無法在一個群組中使用超過 %s 項規則。"
     },
     "options_filters_list_search_placeholder": {
         "message": "搜尋"
@@ -399,7 +399,7 @@
         "message": "內容阻擋器"
     },
     "options_content_blockers_desc": {
-        "message": "已啟用廣告封鎖器：6 當中的 %s（每個可包含高達 50,000 項規則）"
+        "message": "已啟用廣告封鎖器：6 當中的 %s（每個可包含高達 %s 項規則）"
     },
     "options_content_blockers_disabled_desc": {
         "message": "廣告封鎖器被禁用"
@@ -459,7 +459,7 @@
         "message": "6 個內容阻擋延伸功能"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari 以每個延伸功能 50,000 項規則限制內容阻擋規則之最大數量。這不足以處理 AdGuard 封鎖之各種各樣的廣告和追蹤器。那是為什麼我們提供 6 個延伸功能，從而增加該限制到 300,000 項規則。"
+        "message": "Safari 以每個延伸功能 %s 項規則限制內容阻擋規則之最大數量。這不足以處理 AdGuard 封鎖之各種各樣的廣告和追蹤器。那是為什麼我們提供 6 個延伸功能，從而增加該限制到 %s 項規則。"
     },
     "onboarding_safari_btn": {
         "message": "開啟偏好設定"
@@ -570,7 +570,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "50,000 項規則的限制已被超出。請禁用不必要的規則以使應用程式正確地運作。<br/>此刻已啟用的規則：%s（已禁用的規則：$2）"
+        "message": "%s 項規則的限制已被超出。請禁用不必要的規則以使應用程式正確地運作。<br/>此刻已啟用的規則：%s（已禁用的規則：$2）"
     },
     "options_cb_disabled_warning": {
         "message": "已在 Safari 中禁用"

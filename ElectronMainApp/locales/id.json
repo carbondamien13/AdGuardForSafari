@@ -333,10 +333,10 @@
         "message": "Peringatan"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "Terlalu banyak filter diaktifkan. Safari tidak dapat menggunakan lebih dari 50.000 aturan dalam satu grup."
+        "message": "Terlalu banyak filter diaktifkan. Safari tidak dapat menggunakan lebih dari %s aturan dalam satu grup."
     },
     "options_content_blocker_overlimit": {
-        "message": "Terlalu banyak filter diaktifkan. Safari tidak dapat menggunakan lebih dari 50.000 aturan dalam satu grup."
+        "message": "Terlalu banyak filter diaktifkan. Safari tidak dapat menggunakan lebih dari %s aturan dalam satu grup."
     },
     "options_filters_list_search_placeholder": {
         "message": "Cari"
@@ -402,7 +402,7 @@
         "message": "Pemblokir konten"
     },
     "options_content_blockers_desc": {
-        "message": "Pemblokir iklan diaktifkan: %s dari 6 (masing-masing dapat berisi hingga 50.000 aturan)"
+        "message": "Pemblokir iklan diaktifkan: %s dari 6 (masing-masing dapat berisi hingga %s aturan)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "Pemblokir iklan dinonaktifkan"
@@ -462,7 +462,7 @@
         "message": "6 ekstensi pemblokiran konten"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari membatasi jumlah maksimum aturan pemblokiran konten dengan 50.000 per ekstensi. Ini tidak cukup untuk menangani semua jenis iklan dan pelacak yang diblokir AdGuard. Itu sebabnya kami menyediakan 6 ekstensi, sehingga meningkatkan batas itu menjadi 300.000."
+        "message": "Safari membatasi jumlah maksimum aturan pemblokiran konten dengan %s per ekstensi. Ini tidak cukup untuk menangani semua jenis iklan dan pelacak yang diblokir AdGuard. Itu sebabnya kami menyediakan 6 ekstensi, sehingga meningkatkan batas itu menjadi %s."
     },
     "onboarding_safari_btn": {
         "message": "Buka preferensi"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "Batas 50.000 aturan telah terlampaui. Harap nonaktifkan aturan yang tidak perlu agar aplikasi berfungsi dengan benar.<br/>Aturan yang diaktifkan saat ini: %s (aturan yang dinonaktifkan: $2)"
+        "message": "Batas %s aturan telah terlampaui. Harap nonaktifkan aturan yang tidak perlu agar aplikasi berfungsi dengan benar.<br/>Aturan yang diaktifkan saat ini: %s (aturan yang dinonaktifkan: $2)"
     },
     "options_cb_disabled_warning": {
         "message": "Dinonaktifkan di Safari"

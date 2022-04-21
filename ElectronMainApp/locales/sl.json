@@ -333,10 +333,10 @@
         "message": "Opozorilo"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "Preveč filtrov je omogočenih. Safari ne more uporabljati več kot 50.000 pravil v eni skupini."
+        "message": "Preveč filtrov je omogočenih. Safari ne more uporabljati več kot %s pravil v eni skupini."
     },
     "options_content_blocker_overlimit": {
-        "message": "Preveč filtrov je omogočenih. Safari ne more uporabljati več kot 50.000 pravil v eni skupini."
+        "message": "Preveč filtrov je omogočenih. Safari ne more uporabljati več kot %s pravil v eni skupini."
     },
     "options_filters_list_search_placeholder": {
         "message": "Poišči"
@@ -402,7 +402,7 @@
         "message": "Zaviralci vsebine"
     },
     "options_content_blockers_desc": {
-        "message": "Omogočenih zaviralcev oglasov: %s od 6 (vsak lahko vsebuje do 50.000 pravil)"
+        "message": "Omogočenih zaviralcev oglasov: %s od 6 (vsak lahko vsebuje do %s pravil)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "Zaviralci oglasov so onemogočeni"
@@ -462,7 +462,7 @@
         "message": "6 filtrov za zaviranje vsebine"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari omeji največje število pravil zaviranja vsebine s 50.000 na eno razširitev. To ni dovolj za obdelavo vseh vrst oglasov in sledilcev, da jih AdGuard zavira. Zato nudimo šest razširitev, s čimer to omejitev povečamo na 300.000."
+        "message": "Safari omeji največje število pravil zaviranja vsebine s %s na eno razširitev. To ni dovolj za obdelavo vseh vrst oglasov in sledilcev, da jih AdGuard zavira. Zato nudimo šest razširitev, s čimer to omejitev povečamo na %s."
     },
     "onboarding_safari_btn": {
         "message": "Odpri nastavitve"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "Omejitev 50.000 pravil je presežena. Za pravilno delovanje aplikacije onemogočite nepotrebna pravila.<br/>Trenutno omogočenih pravil: %s (onemogočenih pravil: $2)"
+        "message": "Omejitev %s pravil je presežena. Za pravilno delovanje aplikacije onemogočite nepotrebna pravila.<br/>Trenutno omogočenih pravil: %s (onemogočenih pravil: $2)"
     },
     "options_cb_disabled_warning": {
         "message": "Onemogočeno v Safariju"

@@ -255,10 +255,10 @@
         "message": "Varning"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "För många valda filter. Safari kan endast hantera 50 000 regler."
+        "message": "För många valda filter. Safari kan endast hantera %s regler."
     },
     "options_content_blocker_overlimit": {
-        "message": "För många valda filter. Safari kan endast hantera 50 000 regler."
+        "message": "För många valda filter. Safari kan endast hantera %s regler."
     },
     "options_filters_list_search_placeholder": {
         "message": "Sök"

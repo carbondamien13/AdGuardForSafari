@@ -333,10 +333,10 @@
         "message": "Warnung"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "Zu viele Filter aktiviert. Safari kann nicht mehr als 50.000 Regeln in einer Gruppe verarbeiten."
+        "message": "Zu viele Filter aktiviert. Safari kann nicht mehr als %s Regeln in einer Gruppe verarbeiten."
     },
     "options_content_blocker_overlimit": {
-        "message": "Zu viele Filter aktiviert. Safari kann nicht mehr als 50.000 Regeln in einer Gruppe verarbeiten."
+        "message": "Zu viele Filter aktiviert. Safari kann nicht mehr als %s Regeln in einer Gruppe verarbeiten."
     },
     "options_filters_list_search_placeholder": {
         "message": "Suchen"
@@ -402,7 +402,7 @@
         "message": "Inhaltsblocker"
     },
     "options_content_blockers_desc": {
-        "message": "Aktivierte Werbeblocker: %s von 6 (jeder kann bis zu 50.000 Regeln enthalten)"
+        "message": "Aktivierte Werbeblocker: %s von 6 (jeder kann bis zu %s Regeln enthalten)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "Werbeblocker sind deaktiviert"
@@ -462,7 +462,7 @@
         "message": "6 Erweiterungen zum Sperren von Inhalten"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari begrenzt die maximale Anzahl von Regeln zum Sperren von Inhalten mit 50.000 pro Erweiterung. Dies ist nicht genug, um alle Arten von Werbung und Trackern zu verarbeiten, die AdGuard sperren kann. Deshalb stellen wir 6 Erweiterungen zur Verfügung und erhöhen damit das Maximum auf 300.000 Einträge."
+        "message": "Safari begrenzt die maximale Anzahl von Regeln zum Sperren von Inhalten mit %s pro Erweiterung. Dies ist nicht genug, um alle Arten von Werbung und Trackern zu verarbeiten, die AdGuard sperren kann. Deshalb stellen wir 6 Erweiterungen zur Verfügung und erhöhen damit das Maximum auf %s Einträge."
     },
     "onboarding_safari_btn": {
         "message": "Einstellungen öffnen"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "Die Grenze von 50.000 Regeln wurde überschritten. Bitte deaktivieren Sie unnötige Regeln, damit die App korrekt funktioniert.<br/>Aktuell aktivierte Regeln: %s ($2 Regeln deaktiviert)"
+        "message": "Die Grenze von %s Regeln wurde überschritten. Bitte deaktivieren Sie unnötige Regeln, damit die App korrekt funktioniert.<br/>Aktuell aktivierte Regeln: %s ($2 Regeln deaktiviert)"
     },
     "options_cb_disabled_warning": {
         "message": "In Safari deaktiviert"

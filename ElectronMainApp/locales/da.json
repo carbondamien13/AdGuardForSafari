@@ -333,10 +333,10 @@
         "message": "Advarsel"
     },
     "notification_content_blocker_overlimit_desc": {
-        "message": "For mange aktive filtre. Safari kan anvende maks. 50.000 regler i én gruppe."
+        "message": "For mange aktive filtre. Safari kan anvende maks. %s regler i én gruppe."
     },
     "options_content_blocker_overlimit": {
-        "message": "For mange aktive filtre. Safari kan anvende maks. 50.000 regler i én gruppe."
+        "message": "For mange aktive filtre. Safari kan anvende maks. %s regler i én gruppe."
     },
     "options_filters_list_search_placeholder": {
         "message": "Søg"
@@ -402,7 +402,7 @@
         "message": "Indholdsblockere"
     },
     "options_content_blockers_desc": {
-        "message": "Aktiverede adblockere: %s ud af 6 (hver kan indeholde op til 50.000 regler)"
+        "message": "Aktiverede adblockere: %s ud af 6 (hver kan indeholde op til %s regler)"
     },
     "options_content_blockers_disabled_desc": {
         "message": "Adblockere er deaktiveret"
@@ -462,7 +462,7 @@
         "message": "6 indholdsblokerende udvidelser"
     },
     "onboarding_tooltip_adguard_safari_content_blockers_info": {
-        "message": "Safari begrænser antallet af indholdsblokeringsregler til 50.000 pr. udvidelse, hvilket ikke er nær nok til at håndtere alle typer AdGuard-blokerede annoncer og trackere. Vi tilbyder derfor 6 udvidelser og øger dermed grænsen til 300.000."
+        "message": "Safari begrænser antallet af indholdsblokeringsregler til %s pr. udvidelse, hvilket ikke er nær nok til at håndtere alle typer AdGuard-blokerede annoncer og trackere. Vi tilbyder derfor 6 udvidelser og øger dermed grænsen til %s."
     },
     "onboarding_safari_btn": {
         "message": "Åbn præferencer"
@@ -573,7 +573,7 @@
         }
     },
     "options_cb_rules_overlimit_info": {
-        "message": "Grænsen på 50.000 regler er overskredet. Deaktivér unødvendige regler for, at appen kan fungere korrekt.<br/>Aktiverede regler pt.: %s (deaktiverede regler: $2)"
+        "message": "Grænsen på %s regler er overskredet. Deaktivér unødvendige regler for, at appen kan fungere korrekt.<br/>Aktiverede regler pt.: %s (deaktiverede regler: $2)"
     },
     "options_cb_disabled_warning": {
         "message": "Deaktiveret i Safari"
