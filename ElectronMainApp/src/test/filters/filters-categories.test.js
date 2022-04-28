@@ -6,6 +6,7 @@ jest.mock('../../utils/app-pack');
 
 describe('Filters categories tests', () => {
     it('Categories metadata test', (done) => {
+        jest.setTimeout(15000);
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
             cache.setData(metadata);
 

@@ -27,6 +27,7 @@ describe('Service client tests', () => {
     });
 
     it('Load filters metadata by id', (done) => {
+        jest.setTimeout(15000);
         serviceClient.loadFiltersMetadata([4, 5, 6],(metadata) => {
             expect(metadata).toHaveLength(3);
             expect(metadata[0].filterId).toBe(4);
