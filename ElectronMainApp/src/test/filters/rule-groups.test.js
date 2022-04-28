@@ -61,7 +61,7 @@ const rules = [
 
 describe('Rule groups test', () => {
     it('Affinity directive test', (done) => {
-        jest.setTimeout(15000);
+        jest.setTimeout(20000);
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
             cache.setData(metadata);
 

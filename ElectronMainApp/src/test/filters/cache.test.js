@@ -5,6 +5,7 @@ jest.mock('../../main/app/app');
 
 describe('Filters, groups and tags cache tests', () => {
     it('Metadata cache test', (done) => {
+        jest.setTimeout(20000);
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
             cache.setData(metadata);
 
