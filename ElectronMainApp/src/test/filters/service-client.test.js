@@ -15,6 +15,7 @@ describe('Service client tests', () => {
     });
 
     it('Load remote filters metadata', (done) => {
+        jest.setTimeout(15000);
         serviceClient.loadRemoteFiltersMetadata( (metadata) => {
             expect(metadata).toHaveProperty('groups');
             expect(metadata.groups.length).toBeGreaterThan(5);
