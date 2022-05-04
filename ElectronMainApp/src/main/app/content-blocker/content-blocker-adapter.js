@@ -46,6 +46,21 @@ module.exports = (function () {
                 safariVersion = parseInt(safariVersion.substring(0, 2), 10);
             }
 
+            let osVersion = safariExt.getOSVersion();
+            log.info(`OS version: ${osVersion}`);
+
+            if (osVersion) {
+                // major version
+                osVersion = parseInt(osVersion.substring(0, 2), 10);
+            }
+
+            // https://github.com/AdguardTeam/AdGuardForSafari/issues/699
+            // in case of Big Sur and Safari 15 we convert rules for Safari 14
+            // to avoid errors of 'fetch', 'other' and 'websocket' resources types
+            if (osVersion === 11 && safariVersion >= 15) {
+                safariVersion = 14;
+            }
+
             log.info(`ConverterTool version: ${getConverterVersion()}`);
             log.info(`Conversion of ${rules.length} rules started..`);
             const converterPath = resourcePath(CONVERTER_TOOL_PATH);
