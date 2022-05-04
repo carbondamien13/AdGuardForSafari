@@ -44,14 +44,18 @@ module.exports = (function () {
             if (safariVersion) {
                 // major version
                 safariVersion = parseInt(safariVersion.substring(0, 2), 10);
+            } else {
+                log.warn('Unable to detect Safari browser version');
             }
 
             let osVersion = safariExt.getOSVersion();
             log.info(`OS version: ${osVersion}`);
 
-            if (osVersion) {
+            if (osVersion && osVersion.startsWith('Version')) {
                 // major version
-                osVersion = parseInt(osVersion.substring(0, 2), 10);
+                osVersion = parseInt(osVersion.substring(8, 10), 10);
+            } else {
+                log.warn('Unable to detect OS major version');
             }
 
             // https://github.com/AdguardTeam/AdGuardForSafari/issues/699
