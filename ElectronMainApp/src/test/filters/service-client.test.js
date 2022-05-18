@@ -3,19 +3,12 @@ const path = require('path');
 const serviceClient = require('../../main/app/filters/service-client');
 const filtersMetadata = require('../resources/filtersMetadata.json');
 
-const TEST_FILTERS_IDS = [4, 5, 6];
-const testFiltersMetadata = filtersMetadata.filters.filter((filter) => TEST_FILTERS_IDS.includes(filter.filterId));
-
 const testFilterPath = path.resolve(__dirname, '../resources', 'test-filter.txt');
 
 jest.mock('../../main/app/app');
 
 jest.spyOn(serviceClient, 'loadRemoteFiltersMetadata').mockImplementation((callback) => {
     callback(filtersMetadata);
-});
-
-jest.spyOn(serviceClient, 'loadFiltersMetadata').mockImplementation((TEST_FILTERS_IDS, callback) => {
-    callback(testFiltersMetadata);
 });
 
 describe('Service client tests', () => {
@@ -26,29 +19,13 @@ describe('Service client tests', () => {
                 expect(lines[0]).toBe('! Title: Test custom filter');
                 done();
             } catch (error) {
-                console.log(error);
-            }
-        });
-    });
-
-    it('Load remote filters metadata', (done) => {
-        serviceClient.loadRemoteFiltersMetadata((metadata) => {
-            try {
-                expect(metadata).toHaveProperty('groups');
-                expect(metadata.groups.length).toBeGreaterThan(5);
-                expect(metadata).toHaveProperty('tags');
-                expect(metadata.tags.length).toBeGreaterThan(50);
-                expect(metadata).toHaveProperty('filters');
-                expect(metadata.filters.length).toBeGreaterThan(50);
-                done();
-            } catch (error) {
-                console.log(error);
+                done(error);
             }
         });
     });
 
     it('Load filters metadata by id', (done) => {
-        serviceClient.loadFiltersMetadata(TEST_FILTERS_IDS, (metadata) => {
+        serviceClient.loadFiltersMetadata([4, 5, 6], (metadata) => {
             try {
                 expect(metadata).toHaveLength(3);
                 expect(metadata[0].filterId).toBe(4);
@@ -64,7 +41,7 @@ describe('Service client tests', () => {
                 expect(metadata[0].tags).toBeDefined();
                 done();
             } catch (error) {
-                console.log(error);
+                done(error);
             }
         });
     });
