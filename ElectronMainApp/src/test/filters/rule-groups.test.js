@@ -1,8 +1,13 @@
 const serviceClient = require('../../main/app/filters/service-client');
 const cache = require('../../main/app/filters/cache');
 const groups = require('../../main/app/content-blocker/rule-groups');
+const filtersMetadata = require('../resources/filtersMetadata.json');
 
 jest.mock('../../utils/app-pack');
+
+jest.spyOn(serviceClient, 'loadRemoteFiltersMetadata').mockImplementation((callback) => {
+    callback(filtersMetadata);
+});
 
 const rules = [
     {
@@ -60,7 +65,7 @@ const rules = [
 // example5.org##.ad
 
 describe('Rule groups test', () => {
-    it('Affinity directive test', (done) => {
+    it('Affinity directive test', async (done) => {
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
             cache.setData(metadata);
 

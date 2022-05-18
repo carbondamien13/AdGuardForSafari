@@ -1,10 +1,15 @@
 const cache = require('../../main/app/filters/cache');
 const serviceClient = require('../../main/app/filters/service-client');
+const filtersMetadata = require('../resources/filtersMetadata.json');
 
 jest.mock('../../main/app/app');
 
+jest.spyOn(serviceClient, 'loadRemoteFiltersMetadata').mockImplementation((callback) => {
+    callback(filtersMetadata);
+});
+
 describe('Filters, groups and tags cache tests', () => {
-    it('Metadata cache test', (done) => {
+    it('Metadata cache test', async (done) => {
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
             cache.setData(metadata);
 

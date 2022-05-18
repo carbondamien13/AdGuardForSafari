@@ -1,11 +1,16 @@
 const cache = require('../../main/app/filters/cache');
 const filtersCategories = require('../../main/app/filters/filters-categories');
 const serviceClient = require('../../main/app/filters/service-client');
+const filtersMetadata = require('../resources/filtersMetadata.json');
 
 jest.mock('../../utils/app-pack');
 
+jest.spyOn(serviceClient, 'loadRemoteFiltersMetadata').mockImplementation((callback) => {
+    callback(filtersMetadata);
+});
+
 describe('Filters categories tests', () => {
-    it('Categories metadata test', (done) => {
+    it('Categories metadata test', async (done) => {
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
             cache.setData(metadata);
 
@@ -17,7 +22,7 @@ describe('Filters categories tests', () => {
 
             const filters = filtersCategories.getFiltersByGroupId(1);
             expect(filters).toBeDefined();
-            expect(filters).toHaveLength(4);
+            expect(filters).toHaveLength(3);
             expect(filters[0]).toHaveProperty('filterId');
 
             done();
