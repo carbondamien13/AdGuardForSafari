@@ -10,31 +10,35 @@ jest.spyOn(serviceClient, 'loadRemoteFiltersMetadata').mockImplementation((callb
 });
 
 describe('Filters tags tests', () => {
-    it('Tags metadata test', async (done) => {
+    it('Tags metadata test', (done) => {
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
-            cache.setData(metadata);
+            try {
+                cache.setData(metadata);
 
-            const tags = filtersTags.getTags();
-            expect(tags).toBeDefined();
-            expect(tags.length).toBeGreaterThan(50);
+                const tags = filtersTags.getTags();
+                expect(tags).toBeDefined();
+                expect(tags.length).toBeGreaterThan(50);
 
-            const baseFilter = metadata.filters.filter((f) => f.filterId === 1);
-            const isRecommended = filtersTags.isRecommendedFilter(baseFilter[0]);
-            expect(isRecommended).toBeTruthy();
+                const baseFilter = metadata.filters.filter((f) => f.filterId === 1);
+                const isRecommended = filtersTags.isRecommendedFilter(baseFilter[0]);
+                expect(isRecommended).toBeTruthy();
 
-            let isMobileFilter = filtersTags.isMobileFilter(metadata.filters[0]);
-            expect(isMobileFilter).toBeFalsy();
+                let isMobileFilter = filtersTags.isMobileFilter(metadata.filters[0]);
+                expect(isMobileFilter).toBeFalsy();
 
-            const mobileFilter = metadata.filters.filter((f) => f.filterId === 11);
-            isMobileFilter = filtersTags.isMobileFilter(mobileFilter[0]);
-            expect(isMobileFilter).toBeTruthy();
+                const mobileFilter = metadata.filters.filter((f) => f.filterId === 11);
+                isMobileFilter = filtersTags.isMobileFilter(mobileFilter[0]);
+                expect(isMobileFilter).toBeTruthy();
 
-            const recommendedFilters = filtersTags.getRecommendedFilters(metadata.filters);
-            recommendedFilters.forEach((filter) => {
-                expect(filter.tags.includes(10)).toBeTruthy();
-            });
+                const recommendedFilters = filtersTags.getRecommendedFilters(metadata.filters);
+                recommendedFilters.forEach((filter) => {
+                    expect(filter.tags.includes(10)).toBeTruthy();
+                });
 
-            done();
+                done();
+            } catch (error) {
+                console.log(error);
+            }
         });
     });
 });

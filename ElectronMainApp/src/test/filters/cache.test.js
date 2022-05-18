@@ -9,28 +9,32 @@ jest.spyOn(serviceClient, 'loadRemoteFiltersMetadata').mockImplementation((callb
 });
 
 describe('Filters, groups and tags cache tests', () => {
-    it('Metadata cache test', async (done) => {
+    it('Metadata cache test', (done) => {
         serviceClient.loadRemoteFiltersMetadata((metadata) => {
-            cache.setData(metadata);
+            try {
+                cache.setData(metadata);
 
-            const filters = cache.getFilters();
-            expect(filters).toHaveLength(metadata.filters.length);
-            expect(filters).toStrictEqual(metadata.filters);
+                const filters = cache.getFilters();
+                expect(filters).toHaveLength(metadata.filters.length);
+                expect(filters).toStrictEqual(metadata.filters);
 
-            const groups = cache.getGroups();
-            expect(groups).toHaveLength(metadata.groups.length);
-            expect(groups).toStrictEqual(metadata.groups);
+                const groups = cache.getGroups();
+                expect(groups).toHaveLength(metadata.groups.length);
+                expect(groups).toStrictEqual(metadata.groups);
 
-            const tags = cache.getTags();
-            expect(tags).toHaveLength(metadata.tags.length);
-            expect(tags).toStrictEqual(metadata.tags);
+                const tags = cache.getTags();
+                expect(tags).toHaveLength(metadata.tags.length);
+                expect(tags).toStrictEqual(metadata.tags);
 
-            const cacheData = cache.getData();
-            expect(cacheData.filters).toStrictEqual(metadata.filters);
-            expect(cacheData.groups).toStrictEqual(metadata.groups);
-            expect(cacheData.tags).toStrictEqual(metadata.tags);
+                const cacheData = cache.getData();
+                expect(cacheData.filters).toStrictEqual(metadata.filters);
+                expect(cacheData.groups).toStrictEqual(metadata.groups);
+                expect(cacheData.tags).toStrictEqual(metadata.tags);
 
-            done();
+                done();
+            } catch (error) {
+                console.log(error);
+            }
         });
     });
 });
