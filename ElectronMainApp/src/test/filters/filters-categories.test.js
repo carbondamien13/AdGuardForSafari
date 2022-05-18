@@ -23,7 +23,7 @@ describe('Filters categories tests', () => {
 
                 const filters = filtersCategories.getFiltersByGroupId(1);
                 expect(filters).toBeDefined();
-                expect(filters).toHaveLength(4);
+                expect(filters).toHaveLength(3);
                 expect(filters[0]).toHaveProperty('filterId');
 
                 done();
